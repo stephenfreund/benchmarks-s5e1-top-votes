@@ -1,0 +1,158 @@
+[{"stream_name":"stdout","time":8.063608142,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/61.6 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m61.6/61.6 kB\u001b[0m \u001b[31m1.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":8.269938372,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/8.6 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.8/8.6 MB\u001b[0m \u001b[31m23.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.0/8.6 MB\u001b[0m \u001b[31m57.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━\u001b[0m \u001b[32m8.3/8.6 MB\u001b[0m \u001b[31m78.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m8.6/8.6 MB\u001b[0m \u001b[31m77.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m8.6/8.6 MB\u001b[0m \u001b[31m49.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":36.269535856,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":36.269578014,"data":"ydata-profiling 4.12.1 requires matplotlib\u003c3.10,\u003e=3.5, but you have matplotlib 3.10.0 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":38.096622869,"data":"\u001b[0m\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/6.3 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.3/6.3 MB\u001b[0m \u001b[31m7.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.3/6.3 MB\u001b[0m \u001b[31m19.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━\u001b[0m \u001b[32m5.5/6.3 MB\u001b[0m \u001b[31m52.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m6.3/6.3 MB\u001b[0m \u001b[31m56.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.3/6.3 MB\u001b[0m \u001b[31m40.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":54.837311491,"data":"\u001b[?25htrain_data shape : (230130, 6)\n"}
+,{"stream_name":"stdout","time":54.837353794,"data":"test_data shape : (98550, 5)\n"}
+,{"stream_name":"stdout","time":54.837360899,"data":"data shape : (98550, 2)\n"}
+,{"stream_name":"stdout","time":55.258913844,"data":"train_data shape : (221259, 6)\n"}
+,{"stream_name":"stdout","time":275.176968353,"data":"holidays_name\n"}
+,{"stream_name":"stdout","time":275.177015173,"data":"New Year's Day                                 511\n"}
+,{"stream_name":"stdout","time":275.177022743,"data":"Christmas Day                                  510\n"}
+,{"stream_name":"stdout","time":275.177029762,"data":"Good Friday                                    500\n"}
+,{"stream_name":"stdout","time":275.177035533,"data":"Easter Monday                                  302\n"}
+,{"stream_name":"stdout","time":275.177041656,"data":"Second Day of Christmas                        210\n"}
+,{"stream_name":"stdout","time":275.177048125,"data":"Chinese New Year                               210\n"}
+,{"stream_name":"stdout","time":275.177053966,"data":"Easter Sunday                                  210\n"}
+,{"stream_name":"stdout","time":275.177060234,"data":"Whit Sunday                                    210\n"}
+,{"stream_name":"stdout","time":275.1770661,"data":"Labour Day                                     197\n"}
+,{"stream_name":"stdout","time":275.177072188,"data":"Ascension Day                                  195\n"}
+,{"stream_name":"stdout","time":275.177078469,"data":"Labor Day                                      195\n"}
+,{"stream_name":"stdout","time":275.177084576,"data":"Assunzione della Vergine                       105\n"}
+,{"stream_name":"stdout","time":275.177090745,"data":"Capodanno                                      105\n"}
+,{"stream_name":"stdout","time":275.177096946,"data":"Tutti i Santi                                  105\n"}
+,{"stream_name":"stdout","time":275.177102993,"data":"Deepavali                                      105\n"}
+,{"stream_name":"stdout","time":275.177109418,"data":"Independence Day                               105\n"}
+,{"stream_name":"stdout","time":275.177115228,"data":"All Saints' Day                                105\n"}
+,{"stream_name":"stdout","time":275.17712127,"data":"Hari Raya Haji                                 105\n"}
+,{"stream_name":"stdout","time":275.177127084,"data":"Midsummer Day                                  105\n"}
+,{"stream_name":"stdout","time":275.177133179,"data":"Immacolata Concezione                          105\n"}
+,{"stream_name":"stdout","time":275.177139168,"data":"Christmas Eve                                  105\n"}
+,{"stream_name":"stdout","time":275.177144998,"data":"Natale                                         105\n"}
+,{"stream_name":"stdout","time":275.177150925,"data":"Santo Stefano                                  105\n"}
+,{"stream_name":"stdout","time":275.177157222,"data":"National Day                                   105\n"}
+,{"stream_name":"stdout","time":275.177163434,"data":"Hari Raya Puasa                                105\n"}
+,{"stream_name":"stdout","time":275.177169351,"data":"Midsummer Eve                                  105\n"}
+,{"stream_name":"stdout","time":275.177176067,"data":"Festa dei Lavoratori                           105\n"}
+,{"stream_name":"stdout","time":275.177182312,"data":"Epiphany                                       105\n"}
+,{"stream_name":"stdout","time":275.177223937,"data":"Maundy Thursday                                105\n"}
+,{"stream_name":"stdout","time":275.177229717,"data":"Pasqua di Resurrezione                         105\n"}
+,{"stream_name":"stdout","time":275.17723441,"data":"May Day                                        105\n"}
+,{"stream_name":"stdout","time":275.17723901,"data":"Epifania del Signore                           105\n"}
+,{"stream_name":"stdout","time":275.177252359,"data":"Vesak Day                                      105\n"}
+,{"stream_name":"stdout","time":275.177256548,"data":"Whit Monday                                    105\n"}
+,{"stream_name":"stdout","time":275.177261099,"data":"Festa della Repubblica                         105\n"}
+,{"stream_name":"stdout","time":275.177265963,"data":"Christmas Day (observed)                       100\n"}
+,{"stream_name":"stdout","time":275.17727064,"data":"Boxing Day                                      96\n"}
+,{"stream_name":"stdout","time":275.17727537,"data":"Jamhuri Day                                     95\n"}
+,{"stream_name":"stdout","time":275.177279649,"data":"Mashujaa Day                                    94\n"}
+,{"stream_name":"stdout","time":275.177287513,"data":"Constitution Day                                90\n"}
+,{"stream_name":"stdout","time":275.177292452,"data":"Lunedì dell'Angelo                              90\n"}
+,{"stream_name":"stdout","time":275.177297542,"data":"Festa della Liberazione                         90\n"}
+,{"stream_name":"stdout","time":275.177301658,"data":"Madaraka Day                                    89\n"}
+,{"stream_name":"stdout","time":275.177306074,"data":"Canada Day                                      88\n"}
+,{"stream_name":"stdout","time":275.177310549,"data":"New Year's Day (observed)                       57\n"}
+,{"stream_name":"stdout","time":275.177315012,"data":"Labour Day (observed)                           56\n"}
+,{"stream_name":"stdout","time":275.177319785,"data":"Hari Raya Haji (observed)                       30\n"}
+,{"stream_name":"stdout","time":275.177324695,"data":"Chinese New Year (observed)                     30\n"}
+,{"stream_name":"stdout","time":275.177328843,"data":"Polling Day                                     30\n"}
+,{"stream_name":"stdout","time":275.177333557,"data":"SG50 Public Holiday                             15\n"}
+,{"stream_name":"stdout","time":275.17733777,"data":"Hari Raya Puasa (observed)                      15\n"}
+,{"stream_name":"stdout","time":275.177342315,"data":"Ascension Day; Constitution Day                 15\n"}
+,{"stream_name":"stdout","time":275.177346349,"data":"Festa della Liberazione; Lunedì dell'Angelo     15\n"}
+,{"stream_name":"stdout","time":275.177351311,"data":"Anniversario dell'Unità d'Italia                15\n"}
+,{"stream_name":"stdout","time":275.17735558,"data":"National Day (observed)                         15\n"}
+,{"stream_name":"stdout","time":275.177359979,"data":"Boxing Day (observed)                           14\n"}
+,{"stream_name":"stdout","time":275.177364248,"data":"Mashujaa Day (observed)                         14\n"}
+,{"stream_name":"stdout","time":275.17736875,"data":"Madaraka Day (observed)                         13\n"}
+,{"stream_name":"stdout","time":275.177373119,"data":"Jamhuri Day (observed)                          12\n"}
+,{"stream_name":"stdout","time":275.177377598,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":504.192262715,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":504.192339531,"data":"Index: 221259 entries, 1 to 230129\n"}
+,{"stream_name":"stdout","time":504.19237131,"data":"Data columns (total 20 columns):\n"}
+,{"stream_name":"stdout","time":504.192376948,"data":" #   Column              Non-Null Count   Dtype  \n"}
+,{"stream_name":"stdout","time":504.192381478,"data":"---  ------              --------------   -----  \n"}
+,{"stream_name":"stdout","time":504.192406001,"data":" 0   id                  221259 non-null  int64  \n"}
+,{"stream_name":"stdout","time":504.192413782,"data":" 1   country             221259 non-null  object \n"}
+,{"stream_name":"stdout","time":504.192418318,"data":" 2   store               221259 non-null  object \n"}
+,{"stream_name":"stdout","time":504.192422782,"data":" 3   product             221259 non-null  object \n"}
+,{"stream_name":"stdout","time":504.19242709,"data":" 4   num_sold            221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":504.19243137,"data":" 5   last                221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":504.192435793,"data":" 6   Year                221259 non-null  int32  \n"}
+,{"stream_name":"stdout","time":504.192440084,"data":" 7   Quarter             221259 non-null  object \n"}
+,{"stream_name":"stdout","time":504.192444372,"data":" 8   Month               221259 non-null  object \n"}
+,{"stream_name":"stdout","time":504.192448631,"data":" 9   Day                 221259 non-null  int32  \n"}
+,{"stream_name":"stdout","time":504.192452939,"data":" 10  day_of_week         221259 non-null  object \n"}
+,{"stream_name":"stdout","time":504.19245761,"data":" 11  week_of_year        221259 non-null  object \n"}
+,{"stream_name":"stdout","time":504.192462879,"data":" 12  day_cos             221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":504.192468199,"data":" 13  month_sin           221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":504.192473231,"data":" 14  month_cos           221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":504.192478093,"data":" 15  year_sin            221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":504.192482498,"data":" 16  year_cos            221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":504.192486794,"data":" 17  Group               221259 non-null  int32  \n"}
+,{"stream_name":"stdout","time":504.192491099,"data":" 18  holidays_name       6948 non-null    object \n"}
+,{"stream_name":"stdout","time":504.192495518,"data":" 19  holidays_name_pre1  6955 non-null    object \n"}
+,{"stream_name":"stdout","time":504.192499762,"data":"dtypes: float64(7), int32(3), int64(1), object(9)\n"}
+,{"stream_name":"stdout","time":504.192504011,"data":"memory usage: 32.9+ MB\n"}
+,{"stream_name":"stdout","time":504.192508246,"data":"None\n"}
+,{"stream_name":"stdout","time":504.192512776,"data":"num_cols: ['Day', 'Group', 'Year', 'day_cos', 'last', 'month_cos', 'month_sin', 'year_cos', 'year_sin']\n"}
+,{"stream_name":"stdout","time":504.192517478,"data":"cat_cols: ['country', 'store', 'product', 'Quarter', 'Month', 'day_of_week', 'week_of_year', 'holidays_name', 'holidays_name_pre1']\n"}
+,{"stream_name":"stderr","time":509.322172265,"data":"2025-01-06 14:44:03.922 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted laplace distribution with error=1.4e-05)\n"}
+,{"stream_name":"stderr","time":509.753839373,"data":"2025-01-06 14:44:04.354 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted expon distribution with error=4.4e-05)\n"}
+,{"stream_name":"stderr","time":509.8770455,"data":"2025-01-06 14:44:04.477 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted norm distribution with error=1.8e-05)\n"}
+,{"stream_name":"stderr","time":514.760516909,"data":"2025-01-06 14:44:09.361 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted gamma distribution with error=4e-05)\n"}
+,{"stream_name":"stderr","time":520.799757935,"data":"2025-01-06 14:44:15.400 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted lognorm distribution with error=1.8e-05)\n"}
+,{"stream_name":"stdout","time":521.027515314,"data":"Distribution of original training data:\n"}
+,{"stream_name":"stdout","time":548.79955753,"data":"LightGBM Fold 1 mean_squared_error : 96259.25660\n"}
+,{"stream_name":"stdout","time":574.162208094,"data":"LightGBM Fold 2 mean_squared_error : 95994.93572\n"}
+,{"stream_name":"stdout","time":598.841328198,"data":"LightGBM Fold 3 mean_squared_error : 97169.21323\n"}
+,{"stream_name":"stdout","time":622.396516518,"data":"LightGBM Fold 4 mean_squared_error : 96345.31379\n"}
+,{"stream_name":"stdout","time":647.247161565,"data":"LightGBM Fold 5 mean_squared_error : 95930.41459\n"}
+,{"stream_name":"stdout","time":647.247199496,"data":"LightGBM mean_squared_error : 96339.82678;\n"}
+,{"stream_name":"stdout","time":647.27796165,"data":"best_iteration:  1698\n"}
+,{"stream_name":"stdout","time":649.537490319,"data":"0           6.400983\n"}
+,{"stream_name":"stdout","time":649.537529138,"data":"1         902.144645\n"}
+,{"stream_name":"stdout","time":649.537537216,"data":"2         701.085168\n"}
+,{"stream_name":"stdout","time":649.537544161,"data":"3         403.868063\n"}
+,{"stream_name":"stdout","time":649.537550572,"data":"4         471.635846\n"}
+,{"stream_name":"stdout","time":649.537556867,"data":"            ...     \n"}
+,{"stream_name":"stdout","time":649.53756311,"data":"98545     466.000000\n"}
+,{"stream_name":"stdout","time":649.537569608,"data":"98546    2907.000000\n"}
+,{"stream_name":"stdout","time":649.537575781,"data":"98547    2299.000000\n"}
+,{"stream_name":"stdout","time":649.537582033,"data":"98548    1242.000000\n"}
+,{"stream_name":"stdout","time":649.53758833,"data":"98549    1622.000000\n"}
+,{"stream_name":"stdout","time":649.537594607,"data":"Name: last, Length: 98550, dtype: float64\n"}
+,{"stream_name":"stdout","time":649.537600949,"data":"predict mean before: 912.7379281503477\n"}
+,{"stream_name":"stdout","time":649.537607262,"data":"predict median before: 749.0\n"}
+,{"stream_name":"stdout","time":649.537613501,"data":"predict mean after: 916.3662404870624\n"}
+,{"stream_name":"stdout","time":649.537619821,"data":"predict median after: 752.0\n"}
+,{"stream_name":"stderr","time":649.641591037,"data":"2025-01-06 14:46:24.242 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted norm distribution with error=1e-05)\n"}
+,{"stream_name":"stderr","time":649.644525068,"data":"2025-01-06 14:46:24.245 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted expon distribution with error=7e-06)\n"}
+,{"stream_name":"stderr","time":649.661443325,"data":"2025-01-06 14:46:24.261 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted laplace distribution with error=1e-05)\n"}
+,{"stream_name":"stderr","time":649.732713718,"data":"2025-01-06 14:46:24.333 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted lognorm distribution with error=8e-06)\n"}
+,{"stream_name":"stderr","time":650.978846382,"data":"2025-01-06 14:46:25.579 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted gamma distribution with error=5e-06)\n"}
+,{"stream_name":"stdout","time":651.211979821,"data":"Distribution of predicting data:\n"}
+,{"stream_name":"stdout","time":651.711297261,"data":"       id  num_sold\n"}
+,{"stream_name":"stdout","time":651.711331797,"data":"0  230130       6.0\n"}
+,{"stream_name":"stdout","time":651.711338794,"data":"1  230131     906.0\n"}
+,{"stream_name":"stdout","time":651.711370236,"data":"2  230132     704.0\n"}
+,{"stream_name":"stdout","time":651.711375062,"data":"3  230133     405.0\n"}
+,{"stream_name":"stdout","time":651.711379258,"data":"4  230134     474.0\n"}
+,{"stream_name":"stderr","time":656.700695081,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":656.700746917,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":656.740446282,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":657.160131381,"data":"[NbConvertApp] Writing 502140 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":658.794847382,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":658.794901048,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":658.830206697,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":659.826494975,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":659.82652723,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":659.8268476,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":659.827150967,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":659.828625302,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":659.829262779,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":659.829909227,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":659.831437374,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":659.831953443,"data":"[NbConvertApp] Writing 362834 bytes to __results__.html\n"}
+]

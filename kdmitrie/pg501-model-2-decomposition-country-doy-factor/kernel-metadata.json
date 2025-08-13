@@ -1,0 +1,27 @@
+{
+  "id": "kdmitrie/pg501-model-2-decomposition-country-doy-factor",
+  "id_no": 75093633,
+  "title": "PG501: Model 2. Decomposition + country-doy factor",
+  "code_file": "pg501-model-2-decomposition-country-doy-factor.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "kdmitrie/pgs501-lib",
+    "zgrcemta/world-gdpgdp-gdp-per-capita-and-annual-growths"
+  ],
+  "kernel_sources": [
+    "act18l/linearregression-subtract-bias-makes-lb-0-054",
+    "cdeotte/transformer-starter-lb-0-052",
+    "act18l/convnet-starter-lb-0-052",
+    ""
+  ],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

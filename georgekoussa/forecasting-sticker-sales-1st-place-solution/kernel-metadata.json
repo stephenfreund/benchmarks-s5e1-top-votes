@@ -1,0 +1,19 @@
+{
+  "id": "georgekoussa/forecasting-sticker-sales-1st-place-solution",
+  "id_no": 75702361,
+  "title": "Forecasting Sticker Sales - 1st Place Solution",
+  "code_file": "forecasting-sticker-sales-1st-place-solution.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

@@ -1,0 +1,50 @@
+[{"stream_name":"stdout","time":16.685211827,"data":"Number of missing num_sold rows: 8871\n"}
+,{"stream_name":"stdout","time":35.733633741,"data":"Train - Earliest date: 2010-01-01 00:00:00\n"}
+,{"stream_name":"stdout","time":35.733680484,"data":"Train - Latest date: 2016-12-31 00:00:00\n"}
+,{"stream_name":"stdout","time":35.733687556,"data":"Test - Earliest date: 2017-01-01 00:00:00\n"}
+,{"stream_name":"stdout","time":35.733693568,"data":"Test - Latest date: 2019-12-31 00:00:00\n"}
+,{"stream_name":"stdout","time":47.228804038,"data":"Missing values remaining: 8871\n"}
+,{"stream_name":"stdout","time":53.83179651,"data":"Missing values remaining: 2\n"}
+,{"stream_name":"stdout","time":54.115619479,"data":"Missing values remaining: 0\n"}
+,{"stream_name":"stdout","time":56.469014367,"data":"store\n"}
+,{"stream_name":"stdout","time":56.469048188,"data":"Discount Stickers       2.390510\n"}
+,{"stream_name":"stdout","time":56.469055532,"data":"Premium Sticker Mart    1.000000\n"}
+,{"stream_name":"stdout","time":56.469061958,"data":"Stickers for Less       1.181537\n"}
+,{"stream_name":"stdout","time":56.469068024,"data":"Name: num_sold, dtype: float64\n"}
+,{"stream_name":"stderr","time":155.986659338,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":155.986744139,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":155.986752896,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":156.645998208,"data":"[NbConvertApp] Writing 17171662 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":159.144141453,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":159.144187721,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":159.144195413,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":160.304357563,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":160.30440887,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.304769857,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.30505113,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.305197011,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.305907334,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.306764806,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.307056485,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.307378399,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.308166297,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.308561454,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.309108793,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.309473673,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.309800321,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.310127367,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.31042184,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.310657682,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.310887023,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.311118802,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.311392246,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.311678944,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.312024883,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.312347291,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.313466214,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.314731582,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.3159905,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.316981129,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.318254441,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":160.31969789,"data":"[NbConvertApp] Writing 469809 bytes to __results__.html\n"}
+]

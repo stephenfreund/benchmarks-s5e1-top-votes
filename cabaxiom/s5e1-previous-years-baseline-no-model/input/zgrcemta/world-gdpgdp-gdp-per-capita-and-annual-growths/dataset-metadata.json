@@ -1,0 +1,24 @@
+{
+  "datasetId": 2007861,
+  "datasetSlug": "world-gdpgdp-gdp-per-capita-and-annual-growths",
+  "ownerUser": "zgrcemta",
+  "usabilityRating": 0.9411764705882353,
+  "totalViews": 47069,
+  "totalVotes": 90,
+  "totalDownloads": 11533,
+  "title": "World GDP(GDP, GDP per capita, and annual growths)",
+  "subtitle": "WorldBank GDP, GDP growth, GDP per capita, and GDP per capita growth are used.",
+  "description": "## **Includings**\n#### 1. GDP\n#### 2. GDP Growth(Annually)\n#### 3. GDP per capita\n#### 4. GDP per capita Growth(Annually)\n#### 5. GDP PPP\n#### 6. GDP PPP per capita\n\n## **Description**\nGDP data is gathered from [World Bank](https://data.worldbank.org/). Data may be used for academic research or for self-learn. More than +200 country **GDP** is used between the years **1960-2020**.\n\n## **Possible Usage**\nData can be used for processing, analyzing, and visualizing various GDP types for various countries for a given year.",
+  "keywords": [
+    "global",
+    "business",
+    "economics",
+    "tabular",
+    "news"
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ]
+}

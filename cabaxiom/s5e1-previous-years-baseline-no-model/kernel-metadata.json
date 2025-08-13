@@ -1,0 +1,21 @@
+{
+  "id": "cabaxiom/s5e1-previous-years-baseline-no-model",
+  "id_no": 74063930,
+  "title": "[S5E1] Previous Years Baseline - No Model",
+  "code_file": "s5e1-previous-years-baseline-no-model.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "zgrcemta/world-gdpgdp-gdp-per-capita-and-annual-growths"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

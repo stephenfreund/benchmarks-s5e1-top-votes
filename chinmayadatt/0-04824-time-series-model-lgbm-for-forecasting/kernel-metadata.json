@@ -1,0 +1,25 @@
+{
+  "id": "chinmayadatt/0-04824-time-series-model-lgbm-for-forecasting",
+  "id_no": 74892068,
+  "title": " [0.04824]Time series model & LGBM for forecasting",
+  "code_file": "0-04824-time-series-model-lgbm-for-forecasting.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "chinmayadatt/lgbm-model-results",
+    "zgrcemta/world-gdpgdp-gdp-per-capita-and-annual-growths"
+  ],
+  "kernel_sources": [
+    "",
+    "zyh1104/sticker-sales-solution-ensembling"
+  ],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

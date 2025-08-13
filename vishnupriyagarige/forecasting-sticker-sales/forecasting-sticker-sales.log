@@ -1,0 +1,42 @@
+[{"stream_name":"stdout","time":8.457504355,"data":"/kaggle/input/playground-series-s5e1/sample_submission.csv\n"}
+,{"stream_name":"stdout","time":8.45759243,"data":"/kaggle/input/playground-series-s5e1/train.csv\n"}
+,{"stream_name":"stdout","time":8.45760057,"data":"/kaggle/input/playground-series-s5e1/test.csv\n"}
+,{"stream_name":"stdout","time":13.649307285999999,"data":"train_data shape : (230130, 6)\n"}
+,{"stream_name":"stdout","time":13.649344941,"data":"test_data shape : (98550, 5)\n"}
+,{"stream_name":"stdout","time":13.649351739,"data":"sample_submission shape : (98550, 2)\n"}
+,{"stream_name":"stdout","time":13.975197847,"data":"train_data shape : (221259, 6)\n"}
+,{"stream_name":"stdout","time":14.38685071,"data":"train data shape : (221259, 21)\n"}
+,{"stream_name":"stdout","time":14.386895031,"data":"test data shape : (98550, 20)\n"}
+,{"stream_name":"stdout","time":221.616071114,"data":"Average MAPE across folds: 0.7867\n"}
+,{"stream_name":"stdout","time":221.616167424,"data":"       id  num_sold\n"}
+,{"stream_name":"stdout","time":221.616180294,"data":"0  230130     145.0\n"}
+,{"stream_name":"stdout","time":221.616187235,"data":"1  230131     896.0\n"}
+,{"stream_name":"stdout","time":221.61619309,"data":"2  230132     716.0\n"}
+,{"stream_name":"stdout","time":221.616198836,"data":"3  230133     402.0\n"}
+,{"stream_name":"stdout","time":221.616204594,"data":"4  230134     477.0\n"}
+,{"stream_name":"stdout","time":252.948422208,"data":"Average MAPE across folds: 0.8218\n"}
+,{"stream_name":"stdout","time":252.948488264,"data":"       id  num_sold\n"}
+,{"stream_name":"stdout","time":252.948496794,"data":"0  230130     158.0\n"}
+,{"stream_name":"stdout","time":252.948504875,"data":"1  230131     834.0\n"}
+,{"stream_name":"stdout","time":252.948511366,"data":"2  230132     672.0\n"}
+,{"stream_name":"stdout","time":252.948519352,"data":"3  230133     390.0\n"}
+,{"stream_name":"stdout","time":252.948525802,"data":"4  230134     452.0\n"}
+,{"stream_name":"stdout","time":318.489244993,"data":"Average MAPE across folds: 0.7888\n"}
+,{"stream_name":"stdout","time":318.489298991,"data":"       id  num_sold\n"}
+,{"stream_name":"stdout","time":318.489307633,"data":"0  230130     133.0\n"}
+,{"stream_name":"stdout","time":318.489315343,"data":"1  230131     876.0\n"}
+,{"stream_name":"stdout","time":318.489321617,"data":"2  230132     717.0\n"}
+,{"stream_name":"stdout","time":318.489328117,"data":"3  230133     387.0\n"}
+,{"stream_name":"stdout","time":318.489334627,"data":"4  230134     472.0\n"}
+,{"stream_name":"stderr","time":321.434390508,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":321.434488004,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":321.474505967,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":321.906376753,"data":"[NbConvertApp] Writing 408853 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":323.422904175,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":323.422951109,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":323.479990346,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":324.455925965,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":324.455980158,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":324.456295711,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":324.45687835,"data":"[NbConvertApp] Writing 351861 bytes to __results__.html\n"}
+]

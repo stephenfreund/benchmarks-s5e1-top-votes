@@ -1,0 +1,107 @@
+[{"stream_name":"stdout","time":5.306796541,"data":"/kaggle/input/playground-series-s5e1/sample_submission.csv\n"}
+,{"stream_name":"stdout","time":5.306880097,"data":"/kaggle/input/playground-series-s5e1/train.csv\n"}
+,{"stream_name":"stdout","time":5.306887047,"data":"/kaggle/input/playground-series-s5e1/test.csv\n"}
+,{"stream_name":"stdout","time":10.988879606,"data":"Training set shape: (230130, 6)\n"}
+,{"stream_name":"stdout","time":10.988977915,"data":"Test set shape: (98550, 5)\n"}
+,{"stream_name":"stdout","time":11.106694806,"data":"\n"}
+,{"stream_name":"stdout","time":11.10674342,"data":"Training data info:\n"}
+,{"stream_name":"stdout","time":11.106751221,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":11.106761014,"data":"RangeIndex: 230130 entries, 0 to 230129\n"}
+,{"stream_name":"stdout","time":11.106766672,"data":"Data columns (total 6 columns):\n"}
+,{"stream_name":"stdout","time":11.106772152,"data":" #   Column    Non-Null Count   Dtype  \n"}
+,{"stream_name":"stdout","time":11.106777519,"data":"---  ------    --------------   -----  \n"}
+,{"stream_name":"stdout","time":11.106782839,"data":" 0   id        230130 non-null  int64  \n"}
+,{"stream_name":"stdout","time":11.106788378,"data":" 1   date      230130 non-null  object \n"}
+,{"stream_name":"stdout","time":11.106793512,"data":" 2   country   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":11.106797375,"data":" 3   store     230130 non-null  object \n"}
+,{"stream_name":"stdout","time":11.106800977,"data":" 4   product   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":11.106804398,"data":" 5   num_sold  221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":11.106807823,"data":"dtypes: float64(1), int64(1), object(4)\n"}
+,{"stream_name":"stdout","time":11.106811152,"data":"memory usage: 10.5+ MB\n"}
+,{"stream_name":"stdout","time":11.106814473,"data":"None\n"}
+,{"stream_name":"stdout","time":11.106817967,"data":"\n"}
+,{"stream_name":"stdout","time":11.106822709,"data":"First few rows of training data:\n"}
+,{"stream_name":"stdout","time":11.190934531,"data":"\n"}
+,{"stream_name":"stdout","time":11.190972589,"data":"Missing values in training data:\n"}
+,{"stream_name":"stdout","time":11.190979392,"data":"id             0\n"}
+,{"stream_name":"stdout","time":11.19098442,"data":"date           0\n"}
+,{"stream_name":"stdout","time":11.190989912,"data":"country        0\n"}
+,{"stream_name":"stdout","time":11.190995625,"data":"store          0\n"}
+,{"stream_name":"stdout","time":11.191000566,"data":"product        0\n"}
+,{"stream_name":"stdout","time":11.191005465,"data":"num_sold    8871\n"}
+,{"stream_name":"stdout","time":11.191010529,"data":"dtype: int64\n"}
+,{"stream_name":"stdout","time":11.191015879,"data":"\n"}
+,{"stream_name":"stdout","time":11.191020435,"data":"Descriptive statistics:\n"}
+,{"stream_name":"stdout","time":12.747272625,"data":"New features created:\n"}
+,{"stream_name":"stdout","time":12.747304404,"data":"['id', 'date', 'country', 'store', 'product', 'num_sold', 'dayofweek', 'year', 'month', 'day', 'is_weekend', 'season', 'country_encoded', 'store_encoded', 'season_encoded']\n"}
+,{"stream_name":"stdout","time":13.303860407,"data":"Training set shape: (230130, 6)\n"}
+,{"stream_name":"stdout","time":13.303907884000001,"data":"Test set shape: (98550, 5)\n"}
+,{"stream_name":"stdout","time":13.597974219,"data":"[LightGBM] [Warning] min_gain_to_split is set=0.1, min_split_gain=0.0 will be ignored. Current value: min_gain_to_split=0.1\n"}
+,{"stream_name":"stdout","time":13.598006533,"data":"[LightGBM] [Warning] min_gain_to_split is set=0.1, min_split_gain=0.0 will be ignored. Current value: min_gain_to_split=0.1\n"}
+,{"stream_name":"stdout","time":13.598057448,"data":"[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.007427 seconds.\n"}
+,{"stream_name":"stdout","time":13.598063566,"data":"You can set `force_row_wise=true` to remove the overhead.\n"}
+,{"stream_name":"stdout","time":13.598068188,"data":"And if memory is not enough, you can set `force_col_wise=true`.\n"}
+,{"stream_name":"stdout","time":13.59807231,"data":"[LightGBM] [Info] Total Bins 76\n"}
+,{"stream_name":"stdout","time":13.598076236,"data":"[LightGBM] [Info] Number of data points in the train set: 177007, number of used features: 8\n"}
+,{"stream_name":"stdout","time":13.598080368,"data":"[LightGBM] [Warning] min_gain_to_split is set=0.1, min_split_gain=0.0 will be ignored. Current value: min_gain_to_split=0.1\n"}
+,{"stream_name":"stdout","time":13.598084803999999,"data":"[LightGBM] [Info] Start training from score 751.724474\n"}
+,{"stream_name":"stdout","time":13.804923537,"data":"Training until validation scores don't improve for 50 rounds\n"}
+,{"stream_name":"stdout","time":15.089132614,"data":"[100]\tvalid_0's mape: 0.212285\tvalid_0's l2: 6423.76\n"}
+,{"stream_name":"stdout","time":16.140967053,"data":"[200]\tvalid_0's mape: 0.195958\tvalid_0's l2: 4456.88\n"}
+,{"stream_name":"stdout","time":16.142326268,"data":"Early stopping, best iteration is:\n"}
+,{"stream_name":"stdout","time":16.142344682,"data":"[159]\tvalid_0's mape: 0.193553\tvalid_0's l2: 4843.25\n"}
+,{"stream_name":"stdout","time":16.142350531,"data":"[LightGBM] [Warning] min_gain_to_split is set=0.1, min_split_gain=0.0 will be ignored. Current value: min_gain_to_split=0.1\n"}
+,{"stream_name":"stdout","time":16.341382798,"data":"Validation MAPE: 0.1936\n"}
+,{"stream_name":"stderr","time":17.778923679000002,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":17.778962646,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":17.779988911,"data":"  File \"/usr/local/lib/python3.10/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":17.780178111,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":17.780202639,"data":"  File \"/usr/local/lib/python3.10/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":17.780426333,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":17.780899089000002,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":17.780916289,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":17.780921159000002,"data":"Exception encountered at \"In [9]\":\n"}
+,{"stream_name":"stderr","time":17.780925606,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":17.780929729,"data":"KeyError                                  Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":17.780933969,"data":"\u003cipython-input-9-09c2c69cc0dd\u003e in \u003ccell line: 2\u003e()\n"}
+,{"stream_name":"stderr","time":17.78093872,"data":"      1 # Generate predictions for test set\n"}
+,{"stream_name":"stderr","time":17.78094276,"data":"----\u003e 2 test_predictions = model.predict(test_processed[feature_cols])\n"}
+,{"stream_name":"stderr","time":17.780947469,"data":"      3 \n"}
+,{"stream_name":"stderr","time":17.780951526,"data":"      4 # Create submission file\n"}
+,{"stream_name":"stderr","time":17.780973424,"data":"      5 submission = pd.DataFrame({\n"}
+,{"stream_name":"stderr","time":17.780977858,"data":"\n"}
+,{"stream_name":"stderr","time":17.780981676,"data":"/usr/local/lib/python3.10/dist-packages/pandas/core/frame.py in __getitem__(self, key)\n"}
+,{"stream_name":"stderr","time":17.780985518,"data":"   3897             if is_iterator(key):\n"}
+,{"stream_name":"stderr","time":17.78098942,"data":"   3898                 key = list(key)\n"}
+,{"stream_name":"stderr","time":17.780993424000002,"data":"-\u003e 3899             indexer = self.columns._get_indexer_strict(key, \"columns\")[1]\n"}
+,{"stream_name":"stderr","time":17.780998154,"data":"   3900 \n"}
+,{"stream_name":"stderr","time":17.781002211,"data":"   3901         # take() does not accept boolean indexers\n"}
+,{"stream_name":"stderr","time":17.781006544,"data":"\n"}
+,{"stream_name":"stderr","time":17.781010168999998,"data":"/usr/local/lib/python3.10/dist-packages/pandas/core/indexes/base.py in _get_indexer_strict(self, key, axis_name)\n"}
+,{"stream_name":"stderr","time":17.781014392,"data":"   6113             keyarr, indexer, new_indexer = self._reindex_non_unique(keyarr)\n"}
+,{"stream_name":"stderr","time":17.781026661,"data":"   6114 \n"}
+,{"stream_name":"stderr","time":17.781030614,"data":"-\u003e 6115         self._raise_if_missing(keyarr, indexer, axis_name)\n"}
+,{"stream_name":"stderr","time":17.781034697,"data":"   6116 \n"}
+,{"stream_name":"stderr","time":17.781038643,"data":"   6117         keyarr = self.take(indexer)\n"}
+,{"stream_name":"stderr","time":17.781042882,"data":"\n"}
+,{"stream_name":"stderr","time":17.781046923,"data":"/usr/local/lib/python3.10/dist-packages/pandas/core/indexes/base.py in _raise_if_missing(self, key, indexer, axis_name)\n"}
+,{"stream_name":"stderr","time":17.78105135,"data":"   6177 \n"}
+,{"stream_name":"stderr","time":17.781055245,"data":"   6178             not_found = list(ensure_index(key)[missing_mask.nonzero()[0]].unique())\n"}
+,{"stream_name":"stderr","time":17.781059573,"data":"-\u003e 6179             raise KeyError(f\"{not_found} not in index\")\n"}
+,{"stream_name":"stderr","time":17.781063864,"data":"   6180 \n"}
+,{"stream_name":"stderr","time":17.781067823,"data":"   6181     @overload\n"}
+,{"stream_name":"stderr","time":17.781072054,"data":"\n"}
+,{"stream_name":"stderr","time":17.781076012,"data":"KeyError: \"['product_encoded'] not in index\"\n"}
+,{"stream_name":"stderr","time":17.781079824,"data":"\n"}
+,{"stream_name":"stderr","time":19.860187431,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":19.860235452,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":19.897963368,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":20.324906061,"data":"[NbConvertApp] Writing 156629 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":21.879003371,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":21.879054587,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":21.940841988,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":22.896026152,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":22.896075318,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":22.896779053,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":22.897026276,"data":"[NbConvertApp] Writing 326219 bytes to __results__.html\n"}
+]

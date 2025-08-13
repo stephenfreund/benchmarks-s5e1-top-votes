@@ -1,0 +1,199 @@
+[{"stream_name":"stdout","time":12.004285988,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":12.004350815,"data":"RangeIndex: 230130 entries, 0 to 230129\n"}
+,{"stream_name":"stdout","time":12.004358495,"data":"Data columns (total 6 columns):\n"}
+,{"stream_name":"stdout","time":12.0043626,"data":" #   Column    Non-Null Count   Dtype  \n"}
+,{"stream_name":"stdout","time":12.004366697,"data":"---  ------    --------------   -----  \n"}
+,{"stream_name":"stdout","time":12.004370982,"data":" 0   id        230130 non-null  int64  \n"}
+,{"stream_name":"stdout","time":12.004374995,"data":" 1   date      230130 non-null  object \n"}
+,{"stream_name":"stdout","time":12.004378662,"data":" 2   country   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":12.00438252,"data":" 3   store     230130 non-null  object \n"}
+,{"stream_name":"stdout","time":12.004386215,"data":" 4   product   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":12.004390334,"data":" 5   num_sold  221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":12.004393934,"data":"dtypes: float64(1), int64(1), object(4)\n"}
+,{"stream_name":"stdout","time":12.004397531,"data":"memory usage: 10.5+ MB\n"}
+,{"stream_name":"stderr","time":17.088696702,"data":"/usr/local/lib/python3.10/dist-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.\n"}
+,{"stream_name":"stderr","time":17.088752569,"data":"  with pd.option_context('mode.use_inf_as_na', True):\n"}
+,{"stream_name":"stderr","time":18.462869595,"data":"/usr/local/lib/python3.10/dist-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.\n"}
+,{"stream_name":"stderr","time":18.462913725,"data":"  with pd.option_context('mode.use_inf_as_na', True):\n"}
+,{"stream_name":"stdout","time":19.40486074,"data":"CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs\n"}
+,{"stream_name":"stdout","time":19.404894877,"data":"Wall time: 6.44 µs\n"}
+,{"stream_name":"stdout","time":19.450142053,"data":"CPU times: user 3 µs, sys: 0 ns, total: 3 µs\n"}
+,{"stream_name":"stdout","time":19.45018691,"data":"Wall time: 5.48 µs\n"}
+,{"stream_name":"stdout","time":19.495841674,"data":"CPU times: user 2 µs, sys: 0 ns, total: 2 µs\n"}
+,{"stream_name":"stdout","time":19.495871256,"data":"Wall time: 6.44 µs\n"}
+,{"stream_name":"stdout","time":19.544606327,"data":"CPU times: user 23 µs, sys: 3 µs, total: 26 µs\n"}
+,{"stream_name":"stdout","time":19.544635414,"data":"Wall time: 29.3 µs\n"}
+,{"stream_name":"stderr","time":20.001407434,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:27:47] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":20.001445254,"data":"\n"}
+,{"stream_name":"stderr","time":20.001451173,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":20.001454187,"data":"\n"}
+,{"stream_name":"stderr","time":20.001456712,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stdout","time":31.959971815,"data":"[LightGBM] [Info] This is the GPU trainer!!\n"}
+,{"stream_name":"stdout","time":31.960011237,"data":"[LightGBM] [Info] Total Bins 694\n"}
+,{"stream_name":"stdout","time":31.96001761,"data":"[LightGBM] [Info] Number of data points in the train set: 230130, number of used features: 14\n"}
+,{"stream_name":"stdout","time":32.306175045,"data":"[LightGBM] [Info] Using GPU Device: Tesla T4, Vendor: NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":32.306219682,"data":"[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...\n"}
+,{"stream_name":"stderr","time":32.413326524,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":32.640068116,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":32.7658546,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":32.851977069,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":32.973303261,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.059941324,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.180303762,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.288508384,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.409767743,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.519513746,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.642078309,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.753380214,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.875913433,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":33.986676212,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":34.107784696,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":34.218347645,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":34.338907247,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":34.450649471,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":34.570865257,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":34.683363031,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":34.804622702,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":34.915004078,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.041742651,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.15324975,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.273198541,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.38478185,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.506800714,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.620244596,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.739444252,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.849659487,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":35.970819867,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":36.135065754,"data":"1 warning generated.\n"}
+,{"stream_name":"stderr","time":36.256318449,"data":"1 warning generated.\n"}
+,{"stream_name":"stdout","time":36.608823708,"data":"[LightGBM] [Info] GPU programs have been built\n"}
+,{"stream_name":"stdout","time":36.60885531,"data":"[LightGBM] [Info] Size of histogram bin entry: 8\n"}
+,{"stream_name":"stdout","time":36.608860299,"data":"[LightGBM] [Info] 13 dense feature groups (3.51 MB) transferred to GPU in 0.005129 secs. 1 sparse feature groups\n"}
+,{"stream_name":"stdout","time":36.60886378,"data":"[LightGBM] [Info] Start training from score 5.841489\n"}
+,{"stream_name":"stderr","time":88.045009653,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:28:55] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":88.045056968,"data":"\n"}
+,{"stream_name":"stderr","time":88.045061529,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":88.045065547,"data":"\n"}
+,{"stream_name":"stderr","time":88.045069053,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":98.297249879,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:05] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":98.29730439,"data":"\n"}
+,{"stream_name":"stderr","time":98.297310558,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":98.297315418,"data":"\n"}
+,{"stream_name":"stderr","time":98.297319371,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":98.297324494,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:05] WARNING: /workspace/src/common/error_msg.cc:58: Falling back to prediction using DMatrix due to mismatched devices. This might lead to higher memory usage and slower performance. XGBoost is running on: cuda:0, while the input data is on: cpu.\n"}
+,{"stream_name":"stderr","time":98.297330087,"data":"Potential solutions:\n"}
+,{"stream_name":"stderr","time":98.297334439,"data":"- Use a data structure that matches the device ordinal in the booster.\n"}
+,{"stream_name":"stderr","time":98.297339519,"data":"- Set the device for booster before call to inplace_predict.\n"}
+,{"stream_name":"stderr","time":98.297343479,"data":"\n"}
+,{"stream_name":"stderr","time":98.297346911,"data":"This warning will only be shown once.\n"}
+,{"stream_name":"stderr","time":98.297350578,"data":"\n"}
+,{"stream_name":"stderr","time":98.297354039,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":98.297357682,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:05] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":98.297361503,"data":"\n"}
+,{"stream_name":"stderr","time":98.297364714,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":98.297368597,"data":"\n"}
+,{"stream_name":"stderr","time":98.29737183,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":108.947647215,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:15] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":108.947686932,"data":"\n"}
+,{"stream_name":"stderr","time":108.947691698,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":108.947696123,"data":"\n"}
+,{"stream_name":"stderr","time":108.947700191,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":109.224781233,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:16] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":109.224816253,"data":"\n"}
+,{"stream_name":"stderr","time":109.224821294,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":109.224843939,"data":"\n"}
+,{"stream_name":"stderr","time":109.224848298,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":119.538051719,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:26] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":119.538084777,"data":"\n"}
+,{"stream_name":"stderr","time":119.538091948,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":119.538099025,"data":"\n"}
+,{"stream_name":"stderr","time":119.538103655,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":119.538107591,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:26] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":119.538111458,"data":"\n"}
+,{"stream_name":"stderr","time":119.538114672,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":119.538118319,"data":"\n"}
+,{"stream_name":"stderr","time":119.538121608,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":129.838410009,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:36] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":129.838453494,"data":"\n"}
+,{"stream_name":"stderr","time":129.838460062,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":129.838465322,"data":"\n"}
+,{"stream_name":"stderr","time":129.838469789,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":129.838474631,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:37] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":129.838480606,"data":"\n"}
+,{"stream_name":"stderr","time":129.838485222,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":129.838490195,"data":"\n"}
+,{"stream_name":"stderr","time":129.838494765,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stderr","time":140.233982278,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:29:47] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":140.234014843,"data":"\n"}
+,{"stream_name":"stderr","time":140.234020279,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":140.234024933,"data":"\n"}
+,{"stream_name":"stderr","time":140.234029508,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stdout","time":140.445768249,"data":"[LightGBM] [Info] This is the GPU trainer!!\n"}
+,{"stream_name":"stdout","time":140.445792532,"data":"[LightGBM] [Info] Total Bins 693\n"}
+,{"stream_name":"stdout","time":140.445798198,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 14\n"}
+,{"stream_name":"stdout","time":140.44580346,"data":"[LightGBM] [Info] Using GPU Device: Tesla T4, Vendor: NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":140.445825182,"data":"[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...\n"}
+,{"stream_name":"stdout","time":140.445829059,"data":"[LightGBM] [Info] GPU programs have been built\n"}
+,{"stream_name":"stdout","time":140.445832601,"data":"[LightGBM] [Info] Size of histogram bin entry: 8\n"}
+,{"stream_name":"stdout","time":140.445836515,"data":"[LightGBM] [Info] 13 dense feature groups (2.81 MB) transferred to GPU in 0.005152 secs. 1 sparse feature groups\n"}
+,{"stream_name":"stdout","time":140.44584024,"data":"[LightGBM] [Info] Start training from score 5.850778\n"}
+,{"stream_name":"stdout","time":152.16052395,"data":"[LightGBM] [Info] This is the GPU trainer!!\n"}
+,{"stream_name":"stdout","time":152.160553931,"data":"[LightGBM] [Info] Total Bins 694\n"}
+,{"stream_name":"stdout","time":152.160559067,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 14\n"}
+,{"stream_name":"stdout","time":152.160562977,"data":"[LightGBM] [Info] Using GPU Device: Tesla T4, Vendor: NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":152.160566797,"data":"[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...\n"}
+,{"stream_name":"stdout","time":152.160570673,"data":"[LightGBM] [Info] GPU programs have been built\n"}
+,{"stream_name":"stdout","time":152.160574438,"data":"[LightGBM] [Info] Size of histogram bin entry: 8\n"}
+,{"stream_name":"stdout","time":152.160578109,"data":"[LightGBM] [Info] 13 dense feature groups (2.81 MB) transferred to GPU in 0.004105 secs. 1 sparse feature groups\n"}
+,{"stream_name":"stdout","time":152.160581944,"data":"[LightGBM] [Info] Start training from score 5.833173\n"}
+,{"stream_name":"stdout","time":164.271848156,"data":"[LightGBM] [Info] This is the GPU trainer!!\n"}
+,{"stream_name":"stdout","time":164.271881255,"data":"[LightGBM] [Info] Total Bins 693\n"}
+,{"stream_name":"stdout","time":164.271886538,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 14\n"}
+,{"stream_name":"stdout","time":164.271893606,"data":"[LightGBM] [Info] Using GPU Device: Tesla T4, Vendor: NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":164.271900938,"data":"[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...\n"}
+,{"stream_name":"stdout","time":164.271907118,"data":"[LightGBM] [Info] GPU programs have been built\n"}
+,{"stream_name":"stdout","time":164.271912928,"data":"[LightGBM] [Info] Size of histogram bin entry: 8\n"}
+,{"stream_name":"stdout","time":164.271918638,"data":"[LightGBM] [Info] 13 dense feature groups (2.81 MB) transferred to GPU in 0.004250 secs. 1 sparse feature groups\n"}
+,{"stream_name":"stdout","time":164.271923501,"data":"[LightGBM] [Info] Start training from score 5.830239\n"}
+,{"stream_name":"stdout","time":176.905001736,"data":"[LightGBM] [Info] This is the GPU trainer!!\n"}
+,{"stream_name":"stdout","time":176.905059656,"data":"[LightGBM] [Info] Total Bins 694\n"}
+,{"stream_name":"stdout","time":176.905067357,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 14\n"}
+,{"stream_name":"stdout","time":176.905073107,"data":"[LightGBM] [Info] Using GPU Device: Tesla T4, Vendor: NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":176.905078719,"data":"[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...\n"}
+,{"stream_name":"stdout","time":176.905084855,"data":"[LightGBM] [Info] GPU programs have been built\n"}
+,{"stream_name":"stdout","time":176.905090591,"data":"[LightGBM] [Info] Size of histogram bin entry: 8\n"}
+,{"stream_name":"stdout","time":176.905095858,"data":"[LightGBM] [Info] 13 dense feature groups (2.81 MB) transferred to GPU in 0.004194 secs. 1 sparse feature groups\n"}
+,{"stream_name":"stdout","time":176.905120726,"data":"[LightGBM] [Info] Start training from score 5.842177\n"}
+,{"stream_name":"stdout","time":189.314983707,"data":"[LightGBM] [Info] This is the GPU trainer!!\n"}
+,{"stream_name":"stdout","time":189.315018822,"data":"[LightGBM] [Info] Total Bins 693\n"}
+,{"stream_name":"stdout","time":189.31502434,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 14\n"}
+,{"stream_name":"stdout","time":189.315028447,"data":"[LightGBM] [Info] Using GPU Device: Tesla T4, Vendor: NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":189.315032416,"data":"[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...\n"}
+,{"stream_name":"stdout","time":189.315036638,"data":"[LightGBM] [Info] GPU programs have been built\n"}
+,{"stream_name":"stdout","time":189.3150404,"data":"[LightGBM] [Info] Size of histogram bin entry: 8\n"}
+,{"stream_name":"stdout","time":189.315044879,"data":"[LightGBM] [Info] 13 dense feature groups (2.81 MB) transferred to GPU in 0.004272 secs. 1 sparse feature groups\n"}
+,{"stream_name":"stdout","time":189.315049744,"data":"[LightGBM] [Info] Start training from score 5.851079\n"}
+,{"stream_name":"stderr","time":401.496444613,"data":"/usr/local/lib/python3.10/dist-packages/xgboost/core.py:160: UserWarning: [17:34:08] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.\n"}
+,{"stream_name":"stderr","time":401.496525523,"data":"\n"}
+,{"stream_name":"stderr","time":401.496535298,"data":"    E.g. tree_method = \"hist\", device = \"cuda\"\n"}
+,{"stream_name":"stderr","time":401.496540959,"data":"\n"}
+,{"stream_name":"stderr","time":401.496545787,"data":"  warnings.warn(smsg, UserWarning)\n"}
+,{"stream_name":"stdout","time":410.143506263,"data":"File Saved!\n"}
+,{"stream_name":"stdout","time":410.143549225,"data":"       id    num_sold\n"}
+,{"stream_name":"stdout","time":410.143557126,"data":"0  230130  140.644047\n"}
+,{"stream_name":"stdout","time":410.143562558,"data":"1  230131  859.513362\n"}
+,{"stream_name":"stdout","time":410.143568115,"data":"2  230132  741.891244\n"}
+,{"stream_name":"stdout","time":410.143573548,"data":"3  230133  404.503778\n"}
+,{"stream_name":"stdout","time":410.143578743,"data":"4  230134  471.821872\n"}
+,{"stream_name":"stderr","time":412.844226737,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":412.844271307,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":412.875710343,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":413.214539986,"data":"[NbConvertApp] Writing 189541 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":414.362092382,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":414.362134606,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":414.401942495,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":415.147902058,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":415.147980787,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":415.148370786,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":415.148623921,"data":"[NbConvertApp] Writing 376289 bytes to __results__.html\n"}
+]

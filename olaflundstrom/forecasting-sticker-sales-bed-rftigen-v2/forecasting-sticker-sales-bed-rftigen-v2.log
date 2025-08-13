@@ -1,0 +1,52 @@
+[{"stream_name":"stdout","time":7.777349006,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/61.6 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m61.6/61.6 kB\u001b[0m \u001b[31m2.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":7.929835497,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/8.6 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.0/8.6 MB\u001b[0m \u001b[31m58.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m8.6/8.6 MB\u001b[0m \u001b[31m126.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m8.6/8.6 MB\u001b[0m \u001b[31m126.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m8.6/8.6 MB\u001b[0m \u001b[31m79.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":24.433397674,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":24.433440998000002,"data":"ydata-profiling 4.12.1 requires matplotlib\u003c3.10,\u003e=3.5, but you have matplotlib 3.10.0 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":30.498692178,"data":"\u001b[0mtrain_data shape : (230130, 6)\n"}
+,{"stream_name":"stdout","time":30.49873199,"data":"test_data shape : (98550, 5)\n"}
+,{"stream_name":"stdout","time":30.498752071,"data":"data shape : (98550, 2)\n"}
+,{"stream_name":"stdout","time":30.831159065,"data":"train_data shape : (221259, 6)\n"}
+,{"stream_name":"stderr","time":34.611107907,"data":"2025-01-01 09:41:07.239 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted norm distribution with error=6e-06)\n"}
+,{"stream_name":"stderr","time":34.729845265,"data":"2025-01-01 09:41:07.358 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted expon distribution with error=3e-06)\n"}
+,{"stream_name":"stderr","time":34.972271172,"data":"2025-01-01 09:41:07.600 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted laplace distribution with error=6e-06)\n"}
+,{"stream_name":"stderr","time":35.164164597,"data":"2025-01-01 09:41:07.792 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted lognorm distribution with error=4e-06)\n"}
+,{"stream_name":"stderr","time":38.882439927,"data":"2025-01-01 09:41:11.510 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted gamma distribution with error=3e-06)\n"}
+,{"stream_name":"stdout","time":39.198508156,"data":"Distribution of original training data:\n"}
+,{"stream_name":"stdout","time":42.473532512,"data":"LightGBM Fold 1 mape: 0.009837553484243134\n"}
+,{"stream_name":"stdout","time":44.621829375,"data":"LightGBM Fold 2 mape: 0.009722126815339469\n"}
+,{"stream_name":"stdout","time":46.767019733,"data":"LightGBM Fold 3 mape: 0.009761555849708763\n"}
+,{"stream_name":"stdout","time":48.915214115,"data":"LightGBM Fold 4 mape: 0.00999836985661731\n"}
+,{"stream_name":"stdout","time":50.873259559,"data":"LightGBM Fold 5 mape: 0.009923701360027737\n"}
+,{"stream_name":"stdout","time":50.873317245,"data":"LightGBM mape: 0.0098;\n"}
+,{"stream_name":"stdout","time":60.432594623,"data":"CatBoost Fold 1 mape: 0.011275277305983968\n"}
+,{"stream_name":"stdout","time":68.485552077,"data":"CatBoost Fold 2 mape: 0.01139914630880638\n"}
+,{"stream_name":"stdout","time":76.848216429,"data":"CatBoost Fold 3 mape: 0.011417788732043745\n"}
+,{"stream_name":"stdout","time":84.926169944,"data":"CatBoost Fold 4 mape: 0.011437675762527385\n"}
+,{"stream_name":"stdout","time":93.404060671,"data":"CatBoost Fold 5 mape: 0.011330076834657438\n"}
+,{"stream_name":"stdout","time":93.404126473,"data":"CatBoost mape: 0.0114;\n"}
+,{"stream_name":"stdout","time":93.428862718,"data":"predict mean: 658.2110288690618\n"}
+,{"stream_name":"stdout","time":93.428892933,"data":"predict median 530.5241407902236\n"}
+,{"stream_name":"stderr","time":93.481639951,"data":"2025-01-01 09:42:06.108 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted norm distribution with error=1.5e-05)\n"}
+,{"stream_name":"stderr","time":93.485373396,"data":"2025-01-01 09:42:06.113 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted laplace distribution with error=1.5e-05)\n"}
+,{"stream_name":"stderr","time":93.49481891,"data":"2025-01-01 09:42:06.123 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted expon distribution with error=8e-06)\n"}
+,{"stream_name":"stderr","time":93.52022585,"data":"2025-01-01 09:42:06.148 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted lognorm distribution with error=1.1e-05)\n"}
+,{"stream_name":"stderr","time":94.555584585,"data":"2025-01-01 09:42:07.184 | INFO     | fitter.fitter:_fit_single_distribution:333 - Fitted gamma distribution with error=5e-06)\n"}
+,{"stream_name":"stdout","time":94.781234829,"data":"Distribution of predicting data:\n"}
+,{"stream_name":"stdout","time":95.225382254,"data":"       id    num_sold\n"}
+,{"stream_name":"stdout","time":95.225429962,"data":"0  230130  134.138265\n"}
+,{"stream_name":"stdout","time":95.225436847,"data":"1  230131  823.169549\n"}
+,{"stream_name":"stdout","time":95.225442317,"data":"2  230132  706.140782\n"}
+,{"stream_name":"stdout","time":95.225447206,"data":"3  230133  365.911479\n"}
+,{"stream_name":"stdout","time":95.225452043,"data":"4  230134  463.824316\n"}
+,{"stream_name":"stderr","time":97.788117326,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":97.788165098,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":97.820493375,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":98.142297503,"data":"[NbConvertApp] Writing 133069 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":99.334425422,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":99.334470227,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":99.358877115,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":100.072473369,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":100.072509386,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":100.072744836,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":100.073033729,"data":"[NbConvertApp] Writing 326160 bytes to __results__.html\n"}
+]

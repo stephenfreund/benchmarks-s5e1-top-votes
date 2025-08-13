@@ -1,0 +1,26 @@
+[{"stream_name":"stdout","time":6.976337018,"data":"Train - Earliest date: 2010-01-01 00:00:00\n"}
+,{"stream_name":"stdout","time":6.976444277,"data":"Train - Latest date: 2016-12-31 00:00:00\n"}
+,{"stream_name":"stdout","time":6.976452253,"data":"Test - Earliest date: 2017-01-01 00:00:00\n"}
+,{"stream_name":"stdout","time":6.976456425,"data":"Test - Latest date: 2019-12-31 00:00:00\n"}
+,{"stream_name":"stdout","time":7.172571182,"data":"Missing values remaining: 8871\n"}
+,{"stream_name":"stdout","time":14.009942967,"data":"Missing values remaining: 2\n"}
+,{"stream_name":"stdout","time":14.037278305,"data":"Missing values remaining: 0\n"}
+,{"stream_name":"stdout","time":15.804838873,"data":"This number should be very small 0.000022\n"}
+,{"stream_name":"stderr","time":224.426421531,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":224.426493825,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":224.467837348,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":225.218602106,"data":"[NbConvertApp] Writing 16799787 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":226.72025208,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":226.720306594,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":226.777374699,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":227.826526623,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":227.826576538,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":227.827302725,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":227.827596358,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":227.829275763,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":227.83093173,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":227.832711907,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":227.833938655,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":227.835644818,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":227.837296184,"data":"[NbConvertApp] Writing 372167 bytes to __results__.html\n"}
+]

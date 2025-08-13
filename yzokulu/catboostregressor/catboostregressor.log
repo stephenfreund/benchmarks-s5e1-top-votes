@@ -1,0 +1,188 @@
+[{"stream_name":"stdout","time":14.228962855,"data":"/kaggle/input/playground-series-s5e1/sample_submission.csv\n"}
+,{"stream_name":"stdout","time":14.229037159,"data":"/kaggle/input/playground-series-s5e1/train.csv\n"}
+,{"stream_name":"stdout","time":14.22904475,"data":"/kaggle/input/playground-series-s5e1/test.csv\n"}
+,{"stream_name":"stdout","time":14.864713257,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":14.864759638,"data":"RangeIndex: 230130 entries, 0 to 230129\n"}
+,{"stream_name":"stdout","time":14.864767307,"data":"Data columns (total 6 columns):\n"}
+,{"stream_name":"stdout","time":14.864772907999999,"data":" #   Column    Non-Null Count   Dtype  \n"}
+,{"stream_name":"stdout","time":14.864777721,"data":"---  ------    --------------   -----  \n"}
+,{"stream_name":"stdout","time":14.864782957,"data":" 0   id        230130 non-null  int64  \n"}
+,{"stream_name":"stdout","time":14.864787913,"data":" 1   date      230130 non-null  object \n"}
+,{"stream_name":"stdout","time":14.86479315,"data":" 2   country   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":14.864797581,"data":" 3   store     230130 non-null  object \n"}
+,{"stream_name":"stdout","time":14.864801985,"data":" 4   product   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":14.864808389,"data":" 5   num_sold  221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":14.864812389,"data":"dtypes: float64(1), int64(1), object(4)\n"}
+,{"stream_name":"stdout","time":14.864815548,"data":"memory usage: 10.5+ MB\n"}
+,{"stream_name":"stdout","time":15.313278341,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":15.313325004,"data":"Index: 230130 entries, 0 to 230124\n"}
+,{"stream_name":"stdout","time":15.313332202,"data":"Data columns (total 6 columns):\n"}
+,{"stream_name":"stdout","time":15.313339199,"data":" #   Column    Non-Null Count   Dtype  \n"}
+,{"stream_name":"stdout","time":15.313343669,"data":"---  ------    --------------   -----  \n"}
+,{"stream_name":"stdout","time":15.313348779,"data":" 0   id        230130 non-null  int64  \n"}
+,{"stream_name":"stdout","time":15.313354637,"data":" 1   date      230130 non-null  object \n"}
+,{"stream_name":"stdout","time":15.313375445,"data":" 2   country   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":15.313384838,"data":" 3   store     230130 non-null  object \n"}
+,{"stream_name":"stdout","time":15.31338908,"data":" 4   product   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":15.313393388,"data":" 5   num_sold  225016 non-null  float64\n"}
+,{"stream_name":"stdout","time":15.313397899,"data":"dtypes: float64(1), int64(1), object(4)\n"}
+,{"stream_name":"stdout","time":15.313402824,"data":"memory usage: 12.3+ MB\n"}
+,{"stream_name":"stdout","time":15.842255467,"data":"total_target_sales 5138493.0\n"}
+,{"stream_name":"stdout","time":15.842291472,"data":"total_source_sales 3839271.0\n"}
+,{"stream_name":"stdout","time":15.842296144,"data":"ratio: 1.3384033062526715\n"}
+,{"stream_name":"stdout","time":15.922192126,"data":"          date  num_sold\n"}
+,{"stream_name":"stdout","time":15.922232431,"data":"0   2010-01-01      53.0\n"}
+,{"stream_name":"stdout","time":15.922238711,"data":"1   2010-01-02      48.0\n"}
+,{"stream_name":"stdout","time":15.922243255,"data":"2   2010-01-03      53.0\n"}
+,{"stream_name":"stdout","time":15.922248227,"data":"3   2010-01-04      40.0\n"}
+,{"stream_name":"stdout","time":15.922253646,"data":"4   2010-01-05      40.0\n"}
+,{"stream_name":"stdout","time":15.922258755,"data":"5   2010-01-06      37.0\n"}
+,{"stream_name":"stdout","time":15.922288024,"data":"6   2010-01-07      37.0\n"}
+,{"stream_name":"stdout","time":15.922293005,"data":"7   2010-01-08      38.0\n"}
+,{"stream_name":"stdout","time":15.92229723,"data":"8   2010-01-09      40.0\n"}
+,{"stream_name":"stdout","time":15.922301592,"data":"9   2010-01-10      42.0\n"}
+,{"stream_name":"stdout","time":15.922307541,"data":"10  2010-01-11      34.0\n"}
+,{"stream_name":"stdout","time":15.9223118,"data":"11  2010-01-12      35.0\n"}
+,{"stream_name":"stdout","time":15.922314957,"data":"12  2010-01-13      33.0\n"}
+,{"stream_name":"stdout","time":15.922317915,"data":"13  2010-01-14      35.0\n"}
+,{"stream_name":"stdout","time":15.922320824,"data":"14  2010-01-15      35.0\n"}
+,{"stream_name":"stdout","time":15.92232366,"data":"15  2010-01-16      37.0\n"}
+,{"stream_name":"stdout","time":15.922326578,"data":"16  2010-01-17      41.0\n"}
+,{"stream_name":"stdout","time":15.922329484,"data":"17  2010-01-18      33.0\n"}
+,{"stream_name":"stdout","time":15.922332308,"data":"18  2010-01-19      34.0\n"}
+,{"stream_name":"stdout","time":15.922335219,"data":"19  2010-01-20      35.0\n"}
+,{"stream_name":"stdout","time":15.922338172,"data":"Calculated ratio: 0.05\n"}
+,{"stream_name":"stdout","time":16.06727167,"data":"After update:\n"}
+,{"stream_name":"stdout","time":16.067305896,"data":"       country              store            product        date  num_sold\n"}
+,{"stream_name":"stdout","time":16.067312301,"data":"115065   Kenya  Discount Stickers  Holographic Goose  2010-01-01  2.643045\n"}
+,{"stream_name":"stdout","time":16.067317166,"data":"115066   Kenya  Discount Stickers  Holographic Goose  2010-01-02  2.393701\n"}
+,{"stream_name":"stdout","time":16.067322256,"data":"115067   Kenya  Discount Stickers  Holographic Goose  2010-01-03  2.643045\n"}
+,{"stream_name":"stdout","time":16.067327069,"data":"115068   Kenya  Discount Stickers  Holographic Goose  2010-01-04  1.994751\n"}
+,{"stream_name":"stdout","time":16.067332872,"data":"115069   Kenya  Discount Stickers  Holographic Goose  2010-01-05  1.994751\n"}
+,{"stream_name":"stdout","time":16.136936772,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":16.136972389,"data":"RangeIndex: 230130 entries, 0 to 230129\n"}
+,{"stream_name":"stdout","time":16.136978826,"data":"Data columns (total 6 columns):\n"}
+,{"stream_name":"stdout","time":16.136983889,"data":" #   Column    Non-Null Count   Dtype  \n"}
+,{"stream_name":"stdout","time":16.136988307,"data":"---  ------    --------------   -----  \n"}
+,{"stream_name":"stdout","time":16.136992629,"data":" 0   id        230130 non-null  int64  \n"}
+,{"stream_name":"stdout","time":16.136997616,"data":" 1   date      230130 non-null  object \n"}
+,{"stream_name":"stdout","time":16.137002277,"data":" 2   country   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":16.13700683,"data":" 3   store     230130 non-null  object \n"}
+,{"stream_name":"stdout","time":16.137041763,"data":" 4   product   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":16.137047447,"data":" 5   num_sold  230130 non-null  float64\n"}
+,{"stream_name":"stdout","time":16.137053129,"data":"dtypes: float64(1), int64(1), object(4)\n"}
+,{"stream_name":"stdout","time":16.137058073,"data":"memory usage: 10.5+ MB\n"}
+,{"stream_name":"stdout","time":16.391037744,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":16.391076147,"data":"RangeIndex: 230130 entries, 0 to 230129\n"}
+,{"stream_name":"stdout","time":16.391090501,"data":"Data columns (total 18 columns):\n"}
+,{"stream_name":"stdout","time":16.391119856,"data":" #   Column       Non-Null Count   Dtype         \n"}
+,{"stream_name":"stdout","time":16.391125336,"data":"---  ------       --------------   -----         \n"}
+,{"stream_name":"stdout","time":16.391130584,"data":" 0   id           230130 non-null  int64         \n"}
+,{"stream_name":"stdout","time":16.391135322,"data":" 1   date         230130 non-null  datetime64[ns]\n"}
+,{"stream_name":"stdout","time":16.391139476,"data":" 2   country      230130 non-null  category      \n"}
+,{"stream_name":"stdout","time":16.391143969,"data":" 3   store        230130 non-null  category      \n"}
+,{"stream_name":"stdout","time":16.391148062,"data":" 4   product      230130 non-null  category      \n"}
+,{"stream_name":"stdout","time":16.391152385,"data":" 5   num_sold     230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.391156729,"data":" 6   year         230130 non-null  int32         \n"}
+,{"stream_name":"stdout","time":16.391161038,"data":" 7   month        230130 non-null  int32         \n"}
+,{"stream_name":"stdout","time":16.391165205,"data":" 8   week         230130 non-null  UInt32        \n"}
+,{"stream_name":"stdout","time":16.391169242,"data":" 9   day          230130 non-null  int32         \n"}
+,{"stream_name":"stdout","time":16.391173547,"data":" 10  day_of_week  230130 non-null  int32         \n"}
+,{"stream_name":"stdout","time":16.391178325,"data":" 11  is_weekend   230130 non-null  int64         \n"}
+,{"stream_name":"stdout","time":16.391183575,"data":" 12  sine_day     230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.391188296,"data":" 13  cos_day      230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.391192659,"data":" 14  sine_month   230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.391197013,"data":" 15  cos_month    230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.391201335,"data":" 16  sine_year    230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.391205821,"data":" 17  cos_year     230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.391210634,"data":"dtypes: UInt32(1), category(3), datetime64[ns](1), float64(7), int32(4), int64(2)\n"}
+,{"stream_name":"stdout","time":16.391216248,"data":"memory usage: 22.8 MB\n"}
+,{"stream_name":"stdout","time":16.592011592,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":16.592045921,"data":"RangeIndex: 230130 entries, 0 to 230129\n"}
+,{"stream_name":"stdout","time":16.592051649,"data":"Data columns (total 18 columns):\n"}
+,{"stream_name":"stdout","time":16.592055987,"data":" #   Column       Non-Null Count   Dtype         \n"}
+,{"stream_name":"stdout","time":16.592060259,"data":"---  ------       --------------   -----         \n"}
+,{"stream_name":"stdout","time":16.592064627,"data":" 0   id           230130 non-null  int64         \n"}
+,{"stream_name":"stdout","time":16.592069325,"data":" 1   date         230130 non-null  datetime64[ns]\n"}
+,{"stream_name":"stdout","time":16.592073896,"data":" 2   country      230130 non-null  category      \n"}
+,{"stream_name":"stdout","time":16.592078216,"data":" 3   store        230130 non-null  category      \n"}
+,{"stream_name":"stdout","time":16.592082807,"data":" 4   product      230130 non-null  category      \n"}
+,{"stream_name":"stdout","time":16.592087152,"data":" 5   num_sold     230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.592091914,"data":" 6   year         230130 non-null  int32         \n"}
+,{"stream_name":"stdout","time":16.592119909,"data":" 7   month        230130 non-null  int32         \n"}
+,{"stream_name":"stdout","time":16.592124858,"data":" 8   week         230130 non-null  UInt32        \n"}
+,{"stream_name":"stdout","time":16.592129051,"data":" 9   day          230130 non-null  int32         \n"}
+,{"stream_name":"stdout","time":16.592133596,"data":" 10  day_of_week  230130 non-null  int32         \n"}
+,{"stream_name":"stdout","time":16.592137777,"data":" 11  is_weekend   230130 non-null  int64         \n"}
+,{"stream_name":"stdout","time":16.592141973,"data":" 12  sine_day     230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.592146023,"data":" 13  cos_day      230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.592150023,"data":" 14  sine_month   230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.592154204,"data":" 15  cos_month    230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.592158702,"data":" 16  sine_year    230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.592163116000002,"data":" 17  cos_year     230130 non-null  float64       \n"}
+,{"stream_name":"stdout","time":16.592167763,"data":"dtypes: UInt32(1), category(3), datetime64[ns](1), float64(7), int32(4), int64(2)\n"}
+,{"stream_name":"stdout","time":16.592171994,"data":"memory usage: 22.8 MB\n"}
+,{"stream_name":"stdout","time":17.170434048,"data":"[LightGBM] [Warning] Found whitespace in feature_names, replace with underlines\n"}
+,{"stream_name":"stdout","time":17.17046769,"data":"[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.008630 seconds.\n"}
+,{"stream_name":"stdout","time":17.1704737,"data":"You can set `force_row_wise=true` to remove the overhead.\n"}
+,{"stream_name":"stdout","time":17.17047843,"data":"And if memory is not enough, you can set `force_col_wise=true`.\n"}
+,{"stream_name":"stdout","time":17.170483469,"data":"[LightGBM] [Info] Total Bins 222\n"}
+,{"stream_name":"stdout","time":17.170488094,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 22\n"}
+,{"stream_name":"stdout","time":17.17049281,"data":"[LightGBM] [Info] Start training from score 5.828670\n"}
+,{"stream_name":"stdout","time":18.180410628,"data":"Fold 1: MAPE = 0.0104\n"}
+,{"stream_name":"stdout","time":18.796825471,"data":"[LightGBM] [Warning] Found whitespace in feature_names, replace with underlines\n"}
+,{"stream_name":"stdout","time":18.796864805,"data":"[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.006142 seconds.\n"}
+,{"stream_name":"stdout","time":18.796870974,"data":"You can set `force_row_wise=true` to remove the overhead.\n"}
+,{"stream_name":"stdout","time":18.796876355,"data":"And if memory is not enough, you can set `force_col_wise=true`.\n"}
+,{"stream_name":"stdout","time":18.796881845,"data":"[LightGBM] [Info] Total Bins 222\n"}
+,{"stream_name":"stdout","time":18.796886385,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 22\n"}
+,{"stream_name":"stdout","time":18.796891267,"data":"[LightGBM] [Info] Start training from score 5.827349\n"}
+,{"stream_name":"stdout","time":19.781132853,"data":"Fold 2: MAPE = 0.0104\n"}
+,{"stream_name":"stdout","time":20.400155163,"data":"[LightGBM] [Warning] Found whitespace in feature_names, replace with underlines\n"}
+,{"stream_name":"stdout","time":20.400795376,"data":"[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.005326 seconds.\n"}
+,{"stream_name":"stdout","time":20.400822115,"data":"You can set `force_row_wise=true` to remove the overhead.\n"}
+,{"stream_name":"stdout","time":20.40085835,"data":"And if memory is not enough, you can set `force_col_wise=true`.\n"}
+,{"stream_name":"stdout","time":20.400863543,"data":"[LightGBM] [Info] Total Bins 222\n"}
+,{"stream_name":"stdout","time":20.400868095,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 22\n"}
+,{"stream_name":"stdout","time":20.400872906,"data":"[LightGBM] [Info] Start training from score 5.827042\n"}
+,{"stream_name":"stdout","time":21.431807931,"data":"Fold 3: MAPE = 0.0104\n"}
+,{"stream_name":"stdout","time":22.043492583,"data":"[LightGBM] [Warning] Found whitespace in feature_names, replace with underlines\n"}
+,{"stream_name":"stdout","time":22.04352556,"data":"[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.005301 seconds.\n"}
+,{"stream_name":"stdout","time":22.043531177,"data":"You can set `force_row_wise=true` to remove the overhead.\n"}
+,{"stream_name":"stdout","time":22.043536041,"data":"And if memory is not enough, you can set `force_col_wise=true`.\n"}
+,{"stream_name":"stdout","time":22.043540606,"data":"[LightGBM] [Info] Total Bins 222\n"}
+,{"stream_name":"stdout","time":22.043545127,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 22\n"}
+,{"stream_name":"stdout","time":22.043550241,"data":"[LightGBM] [Info] Start training from score 5.829349\n"}
+,{"stream_name":"stdout","time":23.014741255,"data":"Fold 4: MAPE = 0.0104\n"}
+,{"stream_name":"stdout","time":23.638143821,"data":"[LightGBM] [Warning] Found whitespace in feature_names, replace with underlines\n"}
+,{"stream_name":"stdout","time":23.638184738,"data":"[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.005358 seconds.\n"}
+,{"stream_name":"stdout","time":23.638190091,"data":"You can set `force_row_wise=true` to remove the overhead.\n"}
+,{"stream_name":"stdout","time":23.638194545,"data":"And if memory is not enough, you can set `force_col_wise=true`.\n"}
+,{"stream_name":"stdout","time":23.638199254,"data":"[LightGBM] [Info] Total Bins 222\n"}
+,{"stream_name":"stdout","time":23.638203478,"data":"[LightGBM] [Info] Number of data points in the train set: 184104, number of used features: 22\n"}
+,{"stream_name":"stdout","time":23.638207755,"data":"[LightGBM] [Info] Start training from score 5.831885\n"}
+,{"stream_name":"stdout","time":24.614723085,"data":"Fold 5: MAPE = 0.0104\n"}
+,{"stream_name":"stdout","time":24.785164268,"data":"Training MAPE score (5-fold average): 0.0104\n"}
+,{"stream_name":"stdout","time":24.987903515,"data":"           id  predicted_num_sold\n"}
+,{"stream_name":"stdout","time":24.987947006,"data":"0      230130          142.167515\n"}
+,{"stream_name":"stdout","time":24.987953247,"data":"1      230131          907.746334\n"}
+,{"stream_name":"stdout","time":24.98795794,"data":"2      230132          771.429207\n"}
+,{"stream_name":"stdout","time":24.987962598,"data":"3      230133          414.613475\n"}
+,{"stream_name":"stdout","time":24.987967236,"data":"4      230134          479.878745\n"}
+,{"stream_name":"stdout","time":24.987971892,"data":"...       ...                 ...\n"}
+,{"stream_name":"stdout","time":24.98797654,"data":"98545  328675          361.729233\n"}
+,{"stream_name":"stdout","time":24.98798125,"data":"98546  328676         2265.954535\n"}
+,{"stream_name":"stdout","time":24.987985768,"data":"98547  328677         1872.460186\n"}
+,{"stream_name":"stdout","time":24.987990043,"data":"98548  328678         1041.148566\n"}
+,{"stream_name":"stdout","time":24.987995535,"data":"98549  328679         1250.517374\n"}
+,{"stream_name":"stdout","time":24.988020683,"data":"\n"}
+,{"stream_name":"stdout","time":24.988025392,"data":"[98550 rows x 2 columns]\n"}
+,{"stream_name":"stderr","time":28.156255424,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":28.156329215,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":28.205194638,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":28.643950032,"data":"[NbConvertApp] Writing 57706 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":30.253081009,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":30.25312998,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":30.313609066,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":31.304761159,"data":"[NbConvertApp] Writing 347892 bytes to __results__.html\n"}
+]

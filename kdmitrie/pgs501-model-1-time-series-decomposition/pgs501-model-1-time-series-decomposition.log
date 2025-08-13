@@ -1,0 +1,38 @@
+[{"stream_name":"stdout","time":50.643488441,"data":"Without new npdoy_factor mape_train=0.07661073172823164\n"}
+,{"stream_name":"stdout","time":51.126460164,"data":"With new npdoy_factor mape_train=0.07502301066411615\n"}
+,{"stream_name":"stdout","time":51.564883909,"data":"id,num_sold\r\n"}
+,{"stream_name":"stdout","time":51.564927167,"data":"230130,157\r\n"}
+,{"stream_name":"stdout","time":51.564933642,"data":"230131,1008\r\n"}
+,{"stream_name":"stdout","time":51.564938145,"data":"230132,765\r\n"}
+,{"stream_name":"stdout","time":51.564942474,"data":"230133,449\r\n"}
+,{"stream_name":"stdout","time":51.56494725,"data":"230134,525\r\n"}
+,{"stream_name":"stdout","time":51.564952037,"data":"230135,317\r\n"}
+,{"stream_name":"stdout","time":51.564957552,"data":"230136,2040\r\n"}
+,{"stream_name":"stdout","time":51.564961628,"data":"230137,1547\r\n"}
+,{"stream_name":"stdout","time":51.564966044,"data":"230138,909\r\n"}
+,{"stream_name":"stdout","time":52.060455151,"data":"id,num_sold\r\n"}
+,{"stream_name":"stdout","time":52.060502497,"data":"230130,163.0\r\n"}
+,{"stream_name":"stdout","time":52.060510146,"data":"230131,1056.0\r\n"}
+,{"stream_name":"stdout","time":52.060516322,"data":"230132,797.0\r\n"}
+,{"stream_name":"stdout","time":52.060522666,"data":"230133,470.0\r\n"}
+,{"stream_name":"stdout","time":52.060528517,"data":"230134,542.0\r\n"}
+,{"stream_name":"stdout","time":52.060534692,"data":"230135,330.0\r\n"}
+,{"stream_name":"stdout","time":52.060540137,"data":"230136,2136.0\r\n"}
+,{"stream_name":"stdout","time":52.060546087,"data":"230137,1612.0\r\n"}
+,{"stream_name":"stdout","time":52.060552424,"data":"230138,950.0\r\n"}
+,{"stream_name":"stderr","time":55.157421072,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":55.157487132,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":55.194159629,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":55.641136936,"data":"[NbConvertApp] Writing 1565724 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":57.149176882,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":57.14922508,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":57.199565525,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":58.165848811,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":58.165896597,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":58.166460459,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":58.166975091,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":58.167519855,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":58.167953078,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":58.168317701,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":58.168740959,"data":"[NbConvertApp] Writing 367648 bytes to __results__.html\n"}
+]

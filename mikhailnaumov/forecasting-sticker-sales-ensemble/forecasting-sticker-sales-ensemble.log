@@ -1,0 +1,66 @@
+[{"stream_name":"stderr","time":16.875656048,"data":"2025-01-17 10:16:56.244299: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n"}
+,{"stream_name":"stderr","time":17.146528923,"data":"2025-01-17 10:16:56.515313: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n"}
+,{"stream_name":"stderr","time":17.229260916,"data":"2025-01-17 10:16:56.597984: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"}
+,{"stream_name":"stdout","time":26.00262699,"data":"\u001b[1m\u001b[32m\n"}
+,{"stream_name":"stdout","time":26.002699388,"data":"Train head\n"}
+,{"stream_name":"stdout","time":26.002707095,"data":"\n"}
+,{"stream_name":"stdout","time":26.058980461,"data":"\u001b[1m\u001b[32m\n"}
+,{"stream_name":"stdout","time":26.059026218,"data":"Train info\n"}
+,{"stream_name":"stdout","time":26.059035356,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":26.059042174,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":26.05904911,"data":"Index: 230130 entries, 0 to 230129\n"}
+,{"stream_name":"stdout","time":26.059055013,"data":"Data columns (total 5 columns):\n"}
+,{"stream_name":"stdout","time":26.059061031,"data":" #   Column    Non-Null Count   Dtype  \n"}
+,{"stream_name":"stdout","time":26.059067215,"data":"---  ------    --------------   -----  \n"}
+,{"stream_name":"stdout","time":26.059073796,"data":" 0   date      230130 non-null  object \n"}
+,{"stream_name":"stdout","time":26.059079499,"data":" 1   country   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":26.059085564,"data":" 2   store     230130 non-null  object \n"}
+,{"stream_name":"stdout","time":26.059091173,"data":" 3   product   230130 non-null  object \n"}
+,{"stream_name":"stdout","time":26.059096441,"data":" 4   num_sold  221259 non-null  float64\n"}
+,{"stream_name":"stdout","time":26.059102143,"data":"dtypes: float64(1), object(4)\n"}
+,{"stream_name":"stdout","time":26.059108388,"data":"memory usage: 10.5+ MB\n"}
+,{"stream_name":"stdout","time":26.105248149,"data":"\u001b[1m\u001b[32m\n"}
+,{"stream_name":"stdout","time":26.105300712,"data":"Train missing values\n"}
+,{"stream_name":"stdout","time":26.105310289,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":26.109838916,"data":"\u001b[1m\u001b[32m\n"}
+,{"stream_name":"stdout","time":26.109880304,"data":"Test head\n"}
+,{"stream_name":"stdout","time":26.109887563,"data":"\n"}
+,{"stream_name":"stdout","time":26.13497237,"data":"\u001b[1m\u001b[32m\n"}
+,{"stream_name":"stdout","time":26.135004398,"data":"Test info\n"}
+,{"stream_name":"stdout","time":26.135011088,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":26.135017222,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":26.135023488,"data":"Index: 98550 entries, 230130 to 328679\n"}
+,{"stream_name":"stdout","time":26.135029685,"data":"Data columns (total 4 columns):\n"}
+,{"stream_name":"stdout","time":26.135036119,"data":" #   Column   Non-Null Count  Dtype \n"}
+,{"stream_name":"stdout","time":26.135042114,"data":"---  ------   --------------  ----- \n"}
+,{"stream_name":"stdout","time":26.135048087,"data":" 0   date     98550 non-null  object\n"}
+,{"stream_name":"stdout","time":26.135054159,"data":" 1   country  98550 non-null  object\n"}
+,{"stream_name":"stdout","time":26.135082855,"data":" 2   store    98550 non-null  object\n"}
+,{"stream_name":"stdout","time":26.135087792,"data":" 3   product  98550 non-null  object\n"}
+,{"stream_name":"stdout","time":26.135092289,"data":"dtypes: object(4)\n"}
+,{"stream_name":"stdout","time":26.135096651,"data":"memory usage: 3.8+ MB\n"}
+,{"stream_name":"stdout","time":26.157373489,"data":"\u001b[1m\u001b[32m\n"}
+,{"stream_name":"stdout","time":26.157418305,"data":"Test missing values\n"}
+,{"stream_name":"stdout","time":26.157426099,"data":"\u001b[0m\n"}
+,{"stream_name":"stdout","time":27.988697588,"data":"\u001b[1m\u001b[32m\n"}
+,{"stream_name":"stdout","time":27.988727653,"data":"Target feature distribution\n"}
+,{"stream_name":"stdout","time":27.988733027,"data":"\n"}
+,{"stream_name":"stdout","time":73.60270412,"data":"\u001b[1m\u001b[32m\n"}
+,{"stream_name":"stdout","time":73.602743885,"data":"Histograms of distribution\n"}
+,{"stream_name":"stdout","time":73.602750935,"data":"\n"}
+,{"stream_name":"stderr","time":87.902937502,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":87.902998709,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":87.94523662,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":88.391844205,"data":"[NbConvertApp] Writing 765087 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":89.923012945,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":89.923065685,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":89.980605112,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":91.134782089,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":91.134835057,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":91.135264115,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":91.135491685,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":91.135742126,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":91.136017781,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":91.136515746,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":91.136869147,"data":"[NbConvertApp] Writing 542665 bytes to __results__.html\n"}
+]

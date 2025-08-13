@@ -1,0 +1,23 @@
+{
+  "id": "cdeotte/wavenet-starter-lb-0-08207",
+  "id_no": 75103057,
+  "title": "WaveNet Starter - [LB 0.08207]",
+  "code_file": "wavenet-starter-lb-0-08207.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "cdeotte/kaggle-sticker-comp-sub-v1"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

@@ -1,0 +1,16 @@
+{
+  "datasetId": 6581134,
+  "datasetSlug": "pgs501-lib",
+  "ownerUser": "kdmitrie",
+  "usabilityRating": 0.4117647058823529,
+  "totalViews": 54,
+  "totalDownloads": 56,
+  "title": "PGS501: lib",
+  "subtitle": "",
+  "description": "This dataset is intended to be used in [PGS501 competition](https://www.kaggle.com/competitions/playground-series-s5e1).\n\nThe `data` folder contains the competition data as well as external values.\nThe `lib` folder contains the code useful in the competition.",
+  "licenses": [
+    {
+      "name": "unknown"
+    }
+  ]
+}

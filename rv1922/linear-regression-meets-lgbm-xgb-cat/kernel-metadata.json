@@ -1,0 +1,27 @@
+{
+  "id": "rv1922/linear-regression-meets-lgbm-xgb-cat",
+  "id_no": 74506475,
+  "title": "Linear Regression Meets LGBM, XGB, CAT \ud83c\udfc6\ud83d\udccc",
+  "code_file": "linear-regression-meets-lgbm-xgb-cat.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu",
+    "catboost",
+    "lightgbm",
+    "tabular",
+    "regression"
+  ],
+  "dataset_sources": [
+    "zgrcemta/world-gdpgdp-gdp-per-capita-and-annual-growths"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

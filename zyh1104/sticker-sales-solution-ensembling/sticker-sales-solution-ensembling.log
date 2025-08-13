@@ -1,0 +1,56 @@
+[{"stream_name":"stdout","time":17.650860172,"data":"Missing values remaining: 8871\n"}
+,{"stream_name":"stdout","time":24.400191394,"data":"Missing values remaining: 2\n"}
+,{"stream_name":"stdout","time":24.459631228,"data":"Missing values remaining: 0\n"}
+,{"stream_name":"stdout","time":26.969636317,"data":"Model: Ridge\n"}
+,{"stream_name":"stdout","time":26.969686495,"data":"Average validation MAPE: 0.08440518859085111\n"}
+,{"stream_name":"stdout","time":26.96969351,"data":"Training time (mins): 0.0\n"}
+,{"stream_name":"stdout","time":26.969699662,"data":"\n"}
+,{"stream_name":"stdout","time":27.412040731,"data":"Model: Lasso\n"}
+,{"stream_name":"stdout","time":27.412065718,"data":"Average validation MAPE: 0.08435849808849315\n"}
+,{"stream_name":"stdout","time":27.412070405,"data":"Training time (mins): 0.0\n"}
+,{"stream_name":"stdout","time":27.412074209,"data":"\n"}
+,{"stream_name":"stdout","time":31.256109773,"data":"Model: LGBM1\n"}
+,{"stream_name":"stdout","time":31.256170037,"data":"Average validation MAPE: 0.08073235533559192\n"}
+,{"stream_name":"stdout","time":31.256179915,"data":"Training time (mins): 0.01\n"}
+,{"stream_name":"stdout","time":31.256197749,"data":"\n"}
+,{"stream_name":"stdout","time":33.528570411,"data":"Model: LGBM2\n"}
+,{"stream_name":"stdout","time":33.528599985,"data":"Average validation MAPE: 0.0808120781700295\n"}
+,{"stream_name":"stdout","time":33.528606867,"data":"Training time (mins): 0.01\n"}
+,{"stream_name":"stdout","time":33.528612444,"data":"\n"}
+,{"stream_name":"stdout","time":38.337596982,"data":"Model: LGBM3\n"}
+,{"stream_name":"stdout","time":38.337664866,"data":"Average validation MAPE: 0.07996375976095851\n"}
+,{"stream_name":"stdout","time":38.337671815,"data":"Training time (mins): 0.02\n"}
+,{"stream_name":"stdout","time":38.337677121,"data":"\n"}
+,{"stream_name":"stderr","time":45.189435094,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":45.189480768,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":45.1894882,"data":"\n"}
+,{"stream_name":"stderr","time":45.189494394,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":45.18950041,"data":"  errors=errors,\n"}
+,{"stream_name":"stdout","time":45.191212325,"data":"Iteration: 1, Model added: Lasso, Best weight: -0.9239999999999999, Best MAPE: 0.07867\n"}
+,{"stream_name":"stderr","time":50.001585683,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":50.001636301,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":50.001645616,"data":"\n"}
+,{"stream_name":"stderr","time":50.001652523,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":50.001659925,"data":"  errors=errors,\n"}
+,{"stream_name":"stdout","time":50.00297648,"data":"Iteration: 2, Model added: LGBM2, Best weight: -0.3199999999999994, Best MAPE: 0.07856\n"}
+,{"stream_name":"stderr","time":53.305227881,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":53.305278787,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":53.305288125,"data":"\n"}
+,{"stream_name":"stderr","time":53.305318851,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":53.305324906,"data":"  errors=errors,\n"}
+,{"stream_name":"stdout","time":53.306657463,"data":"Iteration: 3, Model added: Ridge, Best weight: 0.1150000000000011, Best MAPE: 0.07845\n"}
+,{"stream_name":"stdout","time":54.744357598,"data":"Iteration: 4, Model added: LGBM1, Best weight: -0.12699999999999922, Best MAPE: 0.07841\n"}
+,{"stream_name":"stderr","time":54.746235619,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":54.746264142,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":54.746270706,"data":"\n"}
+,{"stream_name":"stderr","time":54.746276115,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":54.74628265,"data":"  errors=errors,\n"}
+,{"stream_name":"stderr","time":59.960380149,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":59.960441044,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":59.960450628,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":60.285086608,"data":"[NbConvertApp] Writing 88569 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":63.003689861,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":63.003749158,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":63.003761355,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":63.964342615,"data":"[NbConvertApp] Writing 436779 bytes to __results__.html\n"}
+]

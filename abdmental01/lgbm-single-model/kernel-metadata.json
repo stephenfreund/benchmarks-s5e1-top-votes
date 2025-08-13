@@ -1,0 +1,21 @@
+{
+  "id": "abdmental01/lgbm-single-model",
+  "id_no": 73913007,
+  "title": "LGBM || Single Model   ",
+  "code_file": "lgbm-single-model.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "abdmental01/abdbase"
+  ],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

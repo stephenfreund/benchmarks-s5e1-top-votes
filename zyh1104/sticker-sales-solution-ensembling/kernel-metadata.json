@@ -1,0 +1,28 @@
+{
+  "id": "zyh1104/sticker-sales-solution-ensembling",
+  "id_no": 75287907,
+  "title": " Sticker Sales Solution ensembling",
+  "code_file": "sticker-sales-solution-ensembling.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "zyh1104/stricker-sales-hill-climbing-for-ensembling",
+    "zyh1104/stricker-sales-pgs501-model-1",
+    "zyh1104/stricker-sales-solution",
+    "zgrcemta/world-gdpgdp-gdp-per-capita-and-annual-growths"
+  ],
+  "kernel_sources": [
+    "kdmitrie/pgs501-model-1-time-series-decomposition",
+    "cdeotte/transformer-starter-lb-0-052",
+    "kdmitrie/pg501-model-2-decomposition-country-doy-factor"
+  ],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

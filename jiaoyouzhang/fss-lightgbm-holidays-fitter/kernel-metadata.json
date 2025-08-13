@@ -1,0 +1,21 @@
+{
+  "id": "jiaoyouzhang/fss-lightgbm-holidays-fitter",
+  "id_no": 73882650,
+  "title": "FSS | LightGBM+Holidays+Fitter",
+  "code_file": "fss-lightgbm-holidays-fitter.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "jiaoyouzhang/fitter-1-71"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e1"
+  ],
+  "model_sources": []
+}

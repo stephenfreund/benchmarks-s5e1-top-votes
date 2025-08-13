@@ -1,0 +1,17 @@
+{
+  "datasetId": 6406117,
+  "datasetSlug": "expanding-window",
+  "ownerUser": "onurkoc83",
+  "usabilityRating": 0.3125,
+  "totalViews": 111,
+  "totalVotes": 17,
+  "totalDownloads": 8,
+  "title": "expanding_window",
+  "subtitle": "",
+  "description": "",
+  "licenses": [
+    {
+      "name": "apache-2.0"
+    }
+  ]
+}

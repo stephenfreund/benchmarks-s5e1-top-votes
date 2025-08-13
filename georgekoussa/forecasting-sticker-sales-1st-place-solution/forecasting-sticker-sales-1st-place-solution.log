@@ -1,0 +1,120 @@
+[{"stream_name":"stdout","time":161.350497791,"data":"Store factor sum is 1.0\n"}
+,{"stream_name":"stderr","time":162.758129102,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":162.758175058,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":163.181306001,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":163.181353192,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":163.181359362,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":163.18136431,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":163.811252317,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":163.811302645,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":164.088126233,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":164.088173679,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":164.535913764,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":164.535954086,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":164.535959758,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":164.53596445,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":165.275186431,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":165.275232971,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":165.494366954,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":165.494406626,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":165.977968611,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":165.978009404,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":172.386080115,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":172.386127561,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":172.921810862,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":172.92185596,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":178.585814639,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":178.585871084,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":178.585913952,"data":"\n"}
+,{"stream_name":"stderr","time":178.585919895,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":178.585927416,"data":"\n"}
+,{"stream_name":"stderr","time":178.58593265,"data":"\n"}
+,{"stream_name":"stderr","time":178.585938111,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":178.585943857,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":178.585949932,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":178.585955582,"data":"\n"}
+,{"stream_name":"stderr","time":178.585960371,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":178.585965998,"data":"\n"}
+,{"stream_name":"stderr","time":178.585970984,"data":"\n"}
+,{"stream_name":"stderr","time":178.585975749,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":178.870919103,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":178.870955424,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":178.870961691,"data":"\n"}
+,{"stream_name":"stderr","time":178.870965957,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":178.870987277,"data":"\n"}
+,{"stream_name":"stderr","time":178.870991593,"data":"\n"}
+,{"stream_name":"stderr","time":178.870995259,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":178.870999811,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":178.871004834,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":178.871009744,"data":"\n"}
+,{"stream_name":"stderr","time":178.87101371400001,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":178.87101874,"data":"\n"}
+,{"stream_name":"stderr","time":178.871022257,"data":"\n"}
+,{"stream_name":"stderr","time":178.87102484,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":179.168132922,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":179.168189959,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":179.168196899,"data":"\n"}
+,{"stream_name":"stderr","time":179.168201119,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":179.168206297,"data":"\n"}
+,{"stream_name":"stderr","time":179.168210596,"data":"\n"}
+,{"stream_name":"stderr","time":179.168214483,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":179.1682185,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":179.168223131,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":179.168227758,"data":"\n"}
+,{"stream_name":"stderr","time":179.168231865,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":179.168237028,"data":"\n"}
+,{"stream_name":"stderr","time":179.168241273,"data":"\n"}
+,{"stream_name":"stderr","time":179.168245275,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":179.477813829,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":179.477854374,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":179.477860957,"data":"\n"}
+,{"stream_name":"stderr","time":179.477865053,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":179.477870268,"data":"\n"}
+,{"stream_name":"stderr","time":179.477874199,"data":"\n"}
+,{"stream_name":"stderr","time":179.477878378,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":179.477882468,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":179.477886833,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":179.477891073,"data":"\n"}
+,{"stream_name":"stderr","time":179.477894648,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":179.477897757,"data":"\n"}
+,{"stream_name":"stderr","time":179.477900294,"data":"\n"}
+,{"stream_name":"stderr","time":179.477920608,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":179.762822009,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":179.762865818,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":179.762872205,"data":"\n"}
+,{"stream_name":"stderr","time":179.762876776,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":179.762881355,"data":"\n"}
+,{"stream_name":"stderr","time":179.762885299,"data":"\n"}
+,{"stream_name":"stderr","time":179.762889526,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":179.762894457,"data":"\u003cipython-input-16-2963a96f4b9e\u003e:8: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n"}
+,{"stream_name":"stderr","time":179.762899401,"data":"The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n"}
+,{"stream_name":"stderr","time":179.762903993,"data":"\n"}
+,{"stream_name":"stderr","time":179.762907875,"data":"For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n"}
+,{"stream_name":"stderr","time":179.762912613,"data":"\n"}
+,{"stream_name":"stderr","time":179.762916264,"data":"\n"}
+,{"stream_name":"stderr","time":179.762920269,"data":"  df[column].fillna(0, inplace=True)\n"}
+,{"stream_name":"stderr","time":184.480337701,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":184.480370349,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":207.05562606,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but LinearRegression was fitted without feature names\n"}
+,{"stream_name":"stderr","time":207.055675429,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":209.830880116,"data":"mape_train=0.07168405356305167\n"}
+,{"stream_name":"stderr","time":213.284903488,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":213.284960718,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":213.321246004,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":213.766109865,"data":"[NbConvertApp] Writing 1673200 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":215.342706804,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":215.342881482,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":215.372419519,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":216.506810579,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":216.506856193,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.507358104,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.507794334,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.508162282,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.508455737,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.508771319,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.509035496,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.509370005,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.509600319,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.509790306,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":216.510077962,"data":"[NbConvertApp] Writing 429723 bytes to __results__.html\n"}
+]

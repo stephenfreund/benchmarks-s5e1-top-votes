@@ -1,0 +1,12 @@
+[{"stream_name":"stdout","time":17.518745928,"data":"Missing values remaining: 8871\n"}
+,{"stream_name":"stdout","time":24.17422095,"data":"Missing values remaining: 2\n"}
+,{"stream_name":"stdout","time":24.221780493,"data":"Missing values remaining: 0\n"}
+,{"stream_name":"stderr","time":30.118003729,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":30.118072853,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":30.118079823,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":30.409096446,"data":"[NbConvertApp] Writing 64511 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":32.964752184,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":32.964809596,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":32.964818496,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":33.830335234,"data":"[NbConvertApp] Writing 387263 bytes to __results__.html\n"}
+]

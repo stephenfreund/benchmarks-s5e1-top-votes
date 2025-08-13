@@ -1,0 +1,40 @@
+[{"stream_name":"stdout","time":14.769676858,"data":"Number of holidays = 87\n"}
+,{"stream_name":"stdout","time":16.215080605,"data":"\tDo optimization on the countries: Canada, Finland, Italy, Kenya, Norway, Singapore\n"}
+,{"stream_name":"stdout","time":80.981020725,"data":"\tstep gspw: 0.05132819527215866\t0.05132819527215866\t0.05081644402098961\n"}
+,{"stream_name":"stdout","time":83.562635743,"data":"\tstep daynum: 0.050919515586666304\t0.050919515586666304\t0.05038666175040202\n"}
+,{"stream_name":"stdout","time":356.934042239,"data":"\tstep holidays: 0.043767855964020365\t0.043767855964020365\t0.043254275378446436\n"}
+,{"stream_name":"stdout","time":705.013766035,"data":"\tstep all: 0.04336318600484072\t0.04336318600484072\t0.0428219819407465\n"}
+,{"stream_name":"stdout","time":705.61004023,"data":"\tDo optimization on the countries: Kenya\n"}
+,{"stream_name":"stdout","time":717.461966012,"data":"\tstep gspw: 0.057434732756252264\t0.057434732756252264\t0.053212264468794936\n"}
+,{"stream_name":"stdout","time":717.975043546,"data":"\tstep daynum: 0.056289088986366004\t0.056289088986366004\t0.05220437791522961\n"}
+,{"stream_name":"stdout","time":770.614090241,"data":"\tstep holidays: 0.04904810364629332\t0.04904810364629332\t0.044655044643603245\n"}
+,{"stream_name":"stdout","time":842.901739064,"data":"\tstep all: 0.047830482154945564\t0.047830482154945564\t0.04331210264381744\n"}
+,{"stream_name":"stdout","time":852.329501594,"data":"id,num_sold\r\n"}
+,{"stream_name":"stdout","time":852.329560171,"data":"230130,154\r\n"}
+,{"stream_name":"stdout","time":852.329574729,"data":"230131,999\r\n"}
+,{"stream_name":"stdout","time":852.329581066,"data":"230132,758\r\n"}
+,{"stream_name":"stdout","time":852.329586969,"data":"230133,442\r\n"}
+,{"stream_name":"stdout","time":852.329594607,"data":"230134,518\r\n"}
+,{"stream_name":"stdout","time":852.329598619,"data":"230135,312\r\n"}
+,{"stream_name":"stdout","time":852.329602635,"data":"230136,2028\r\n"}
+,{"stream_name":"stdout","time":852.3296066,"data":"230137,1539\r\n"}
+,{"stream_name":"stdout","time":852.329610583,"data":"230138,898\r\n"}
+,{"stream_name":"stdout","time":852.481207119,"data":"328670,379\r\n"}
+,{"stream_name":"stdout","time":852.481254305,"data":"328671,2404\r\n"}
+,{"stream_name":"stdout","time":852.481262233,"data":"328672,2138\r\n"}
+,{"stream_name":"stdout","time":852.481266725,"data":"328673,1092\r\n"}
+,{"stream_name":"stdout","time":852.48127088,"data":"328674,1270\r\n"}
+,{"stream_name":"stdout","time":852.481274887,"data":"328675,448\r\n"}
+,{"stream_name":"stdout","time":852.481278843,"data":"328676,2841\r\n"}
+,{"stream_name":"stdout","time":852.481282745,"data":"328677,2526\r\n"}
+,{"stream_name":"stdout","time":852.481287071,"data":"328678,1290\r\n"}
+,{"stream_name":"stdout","time":852.48129313,"data":"328679,1500\r\n"}
+,{"stream_name":"stderr","time":855.723478753,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":855.723569298,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":855.76719724,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":856.191643663,"data":"[NbConvertApp] Writing 38710 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":857.824545772,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":857.824693915,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":857.889929994,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":858.886097719,"data":"[NbConvertApp] Writing 352195 bytes to __results__.html\n"}
+]

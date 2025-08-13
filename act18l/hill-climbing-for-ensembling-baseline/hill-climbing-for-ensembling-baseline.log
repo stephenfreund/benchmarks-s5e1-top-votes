@@ -1,0 +1,78 @@
+[{"stream_name":"stdout","time":16.571928749,"data":"Missing values remaining: 8871\n"}
+,{"stream_name":"stdout","time":23.210879629,"data":"Missing values remaining: 2\n"}
+,{"stream_name":"stdout","time":23.258349934,"data":"Missing values remaining: 0\n"}
+,{"stream_name":"stdout","time":25.35041456,"data":"Model: Ridge\n"}
+,{"stream_name":"stdout","time":25.350448662,"data":"Average validation MAPE: 0.08440518859085111\n"}
+,{"stream_name":"stdout","time":25.350455314,"data":"Training time (mins): 0.0\n"}
+,{"stream_name":"stdout","time":25.350461109,"data":"\n"}
+,{"stream_name":"stdout","time":25.845980203,"data":"Model: Lasso\n"}
+,{"stream_name":"stdout","time":25.846030658,"data":"Average validation MAPE: 0.08435849808849315\n"}
+,{"stream_name":"stdout","time":25.846037902,"data":"Training time (mins): 0.0\n"}
+,{"stream_name":"stdout","time":25.846041924,"data":"\n"}
+,{"stream_name":"stdout","time":25.846045613,"data":"Model: nonlinear1\n"}
+,{"stream_name":"stdout","time":25.846049277,"data":"Average validation MAPE: 0.0718626895986175\n"}
+,{"stream_name":"stdout","time":25.846053166,"data":"Training time (mins): 0.0\n"}
+,{"stream_name":"stdout","time":25.846056726,"data":"\n"}
+,{"stream_name":"stdout","time":25.846060284,"data":"Model: nonlinear2\n"}
+,{"stream_name":"stdout","time":25.846064003,"data":"Average validation MAPE: 0.07158006802604186\n"}
+,{"stream_name":"stdout","time":25.846067699,"data":"Training time (mins): 0.0\n"}
+,{"stream_name":"stdout","time":25.84607115,"data":"\n"}
+,{"stream_name":"stdout","time":31.510690909,"data":"Model: LGBM1\n"}
+,{"stream_name":"stdout","time":31.510731374,"data":"Average validation MAPE: 0.08073235533559192\n"}
+,{"stream_name":"stdout","time":31.510737738,"data":"Training time (mins): 0.01\n"}
+,{"stream_name":"stdout","time":31.510743185,"data":"\n"}
+,{"stream_name":"stdout","time":33.859056152,"data":"Model: LGBM2\n"}
+,{"stream_name":"stdout","time":33.859099689,"data":"Average validation MAPE: 0.0808120781700295\n"}
+,{"stream_name":"stdout","time":33.859108452,"data":"Training time (mins): 0.01\n"}
+,{"stream_name":"stdout","time":33.859114673,"data":"\n"}
+,{"stream_name":"stdout","time":38.526458499,"data":"Model: LGBM3\n"}
+,{"stream_name":"stdout","time":38.526496304,"data":"Average validation MAPE: 0.07996375976095851\n"}
+,{"stream_name":"stdout","time":38.526502111,"data":"Training time (mins): 0.02\n"}
+,{"stream_name":"stdout","time":38.526507101,"data":"\n"}
+,{"stream_name":"stderr","time":48.523569079,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":48.523635816,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":48.523644803,"data":"\n"}
+,{"stream_name":"stderr","time":48.523651967,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":48.523659805,"data":"  errors=errors,\n"}
+,{"stream_name":"stdout","time":48.524982764,"data":"Iteration: 1, Model added: Ridge, Best weight: -1.0, Best MAPE: 0.06524\n"}
+,{"stream_name":"stderr","time":56.531158582,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":56.531255097,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":56.531265689,"data":"\n"}
+,{"stream_name":"stderr","time":56.531272408,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":56.531315638,"data":"  errors=errors,\n"}
+,{"stream_name":"stdout","time":56.532594447,"data":"Iteration: 2, Model added: LGBM1, Best weight: -0.5379999999999996, Best MAPE: 0.06214\n"}
+,{"stream_name":"stderr","time":63.043687866,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":63.043741135,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":63.043750799,"data":"\n"}
+,{"stream_name":"stderr","time":63.043757579,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":63.043764645,"data":"  errors=errors,\n"}
+,{"stream_name":"stdout","time":63.046111785,"data":"Iteration: 3, Model added: nonlinear1, Best weight: 0.028000000000000913, Best MAPE: 0.06212\n"}
+,{"stream_name":"stderr","time":67.806281161,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":67.807274891,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":67.807310365,"data":"\n"}
+,{"stream_name":"stderr","time":67.807318217,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":67.80732633,"data":"  errors=errors,\n"}
+,{"stream_name":"stdout","time":67.807997766,"data":"Iteration: 4, Model added: LGBM2, Best weight: -0.02199999999999913, Best MAPE: 0.06211\n"}
+,{"stream_name":"stderr","time":71.019563322,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":71.01961333,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":71.019623537,"data":"\n"}
+,{"stream_name":"stderr","time":71.019630409,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":71.019637752,"data":"  errors=errors,\n"}
+,{"stream_name":"stdout","time":71.021075126,"data":"Iteration: 5, Model added: Lasso, Best weight: 0.011000000000001009, Best MAPE: 0.06210\n"}
+,{"stream_name":"stdout","time":72.43778598,"data":"Iteration: 6, Model added: LGBM3, Best weight: -0.0019999999999991136, Best MAPE: 0.06210\n"}
+,{"stream_name":"stderr","time":72.439071881,"data":"/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:4913: SettingWithCopyWarning: \n"}
+,{"stream_name":"stderr","time":72.439110725,"data":"A value is trying to be set on a copy of a slice from a DataFrame\n"}
+,{"stream_name":"stderr","time":72.439118726,"data":"\n"}
+,{"stream_name":"stderr","time":72.439124722,"data":"See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n"}
+,{"stream_name":"stderr","time":72.439130622,"data":"  errors=errors,\n"}
+,{"stream_name":"stderr","time":77.407991888,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":77.408048304,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":77.40807495,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":77.725453764,"data":"[NbConvertApp] Writing 106435 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":80.289091418,"data":"/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":80.289136575,"data":"  FutureWarning,\n"}
+,{"stream_name":"stderr","time":80.2891434,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":81.227717339,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":81.227767871,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":81.228368967,"data":"[NbConvertApp] Writing 431723 bytes to __results__.html\n"}
+]
